@@ -1,10 +1,41 @@
+body {
+margin:0;
+padding:0;
+  }
+
+
 .header{
 background-image: url(../img/Foto\ banner.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+}
+
+.header-one{
+background-image: url(../img/banner-servicios.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 
 
+}
+.header-three{
+    background-image: url(../img/Rectángulo\ 337.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    .header-for{
+    background-image: url(../img/Grupo\ 608.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+.hr{
+ opacity: 0.5;   
+ margin-left: 200px; 
+ margin-right: 200px; 
 }
 
 /**fuentes*/
@@ -28,6 +59,15 @@ background-position: center;
     font-family: Montserrat-regular;
     src: url(../Fuentes/montserrat/Montserrat-Regular.ttf)
   } 
+  @font-face{
+    font-family: Montserrat-bold;
+    src: url(../Fuentes/montserrat/Montserrat-Bold.ttf)
+  } 
+
+    @font-face{
+    font-family: Myriadpro;
+    src: url(../Fuentes/myriadpro/MYRIADPRO-REGULAR.OTF)
+  } 
 
 
 .container-header{
@@ -39,6 +79,19 @@ display: flex;
 flex-direction: row;
 justify-content:space-between;
 
+}
+
+.container-nav-text{
+display:flex;
+margin-top:70px;
+height: 250px;  
+justify-content: center;  
+font-family: Myriadpro;
+font-size: 60px;
+}
+
+.container-nav-text p{
+color: white;
 }
 
 .container-header-icono{
@@ -181,7 +234,11 @@ text-decoration: none;
 color:#E95A21;
   
 
-   }
+ }
+
+ .container-menu-two a{
+     
+ }
 
 
 @media (max-width: 780px) {
@@ -525,7 +582,7 @@ font-family: Montserrat-semiBold;
 color:#5F5C5B;
 font-family:Montserrat-medium;
 font-size: 17px;
-    }
+}
 
 .container-info-text-two{
     display:flex;
@@ -544,26 +601,44 @@ font-size: 17px;
 .container-info-two{
 display:flex;
 flex-direction: column;
-padding-left: 10px; 
-padding-right: 10px; 
+padding-left: 5px; 
+padding-right: 5px; 
+}
+.container-aliados-tittle {
+margin-left: 30px;
+font-size: 10px;
 
- }
+}
+.electronic p{
+font-size: 18px;
+width: 300px;    
+}
+
+.fenie p{
+font-size: 18px;
+width: 300px;      
+}
+
  .container-info-two-info{
-    display:flex;
-    flex-direction: column; 
-    justify-content: space-between;   
+display:flex;
+flex-direction: column; 
+justify-content: space-between;   
    
-    }
- .container-info-text{
+}
+
+.container-info-text{
 width: 350px;
 margin-top:100px;
 flex-direction: row;  
 justify-content: space-between;
-font-size: 15px;
+font-size: 10px;
 
 }
 
-
+.container-info-text img{
+ width: 50px;
+height: 100px;
+}
 
 }
 @media screen and (min-width: 580px) and (max-width: 790px){
@@ -572,8 +647,10 @@ display:flex;
 flex-direction: column;
 padding-left: 10px; 
 padding-right: 10px; 
+}
 
- }
+
+
  .container-info-two-info{
 display:flex;
 flex-direction: row; 
@@ -589,8 +666,12 @@ font-size: 15px;
 
 }
 .container-info-text img{
-
 margin-top:40px;
+}
+.text-info{
+color:#5F5C5B;
+font-family:Montserrat-medium;
+font-size: 10px;
 }
 
 
@@ -695,6 +776,21 @@ background-color: #F2F2F2;
 
  }
 
+ .aliados-one{
+display:flex;
+ flex-direction: column;
+padding-left:200px;
+padding-right: 200px;
+
+ }
+
+ .container-aliados-one{
+display:flex;
+flex-direction: row; 
+width: 600px;
+
+   }
+
  .container-aliados-tittle{
 margin-top:20px;
 display:flex;
@@ -710,25 +806,24 @@ font-size: 50px;
 .electronic{
 display:flex;
 flex-direction: column;
-margin-right: 400px;
-
+margin-right: 500px;
 }
 
 .electronic img{
  width:400px;   
 }
 
-.container-aliados-one{
- display:flex;
- flex-direction: row; 
-margin-left:300px;
- width: 600px;
- justify-content:space-between;
-}
+
 
 .electronic p{
     font-family: Montserrat-regular;
 }
+
+.fenie{
+display:flex;
+flex-direction: column; 
+width: 500px;  
+ }
 .fenie p{
     font-family: Montserrat-regular;
 }
@@ -736,18 +831,20 @@ margin-left:300px;
 width:400px;
 height: 180px;      
 }
-.fenie{
-display:flex;
-flex-direction: column; 
-width: 500px;  
-padding-right: 100px;
-}
+
 
 @media screen and (min-width: 300px) and (max-width: 580px){
   .container-aliados{
 display:flex;
 flex-direction: column;
 background-color: #F2F2F2;
+}
+
+ .aliados-one{
+display:flex;
+ flex-direction: column;
+padding-left:10px;
+padding-right: 10px;
 
  }
 
@@ -760,13 +857,13 @@ align-items: center;
  .container-aliados-tittle p{
 font-family: Montserrat-regular;
 color:#2E4356;
-font-size: 50px;
+font-size: 20px;
  }
 
 .electronic{
 display:flex;
 flex-direction: column;
-margin-right: 400px;
+
 
 }
 
@@ -796,9 +893,400 @@ height: 180px;
 display:flex;
 flex-direction: column; 
 width: 500px;  
-padding-right: 100px;
+
+
+}
+
+
+
+
 }
 
 
 
+
+
+
+
+
+/*FABRICANTES*/
+
+
+.container-fabricantes{
+display:flex;
+flex-direction: column;
+margin-bottom: 100px;
 }
+
+.container-fabricantes-tittle{
+display: flex;
+align-items: center;    
+}
+
+.container-fabricantes-img{
+display:flex;
+flex-direction: row;
+justify-content: center;
+       
+}
+
+.container-fabricantes-img img{
+ width: 50px;  
+ margin-top:70px; 
+}
+
+
+
+.fabricantes-carrousel{
+display: flex;
+flex-direction: row;
+padding:10px;
+
+}
+.carrousel-one{
+width: 280px;
+height: 200px;
+background-image: url(/img/Grupo\ 580.png);
+}
+
+.button-carrousel button{
+width: 150px;
+height: 40px;
+color:white;
+background-color: #E95A21;
+border:solid 1px #E95A21;
+font-family: Montserrat-ligth;
+font-size: 20px;
+}
+
+.button-carrousel{
+margin-top: 30%;
+display: flex;
+margin-bottom: 100px !important; 
+margin-left: 60px; 
+font-family: Montserrat-ligth;
+}
+
+@media screen and (min-width: 300px) and (max-width: 580px){
+
+.container-fabricantes-img{
+padding-left:50px;
+flex-direction: column;
+justify-content: center;
+       
+}
+
+}
+@media screen and (min-width: 580px) and (max-width:790px){
+
+.carrousel-one{
+width: 180px;
+height: 200px;
+
+}
+.button-carrousel{
+margin-top: 40%;
+margin-left: 20px; 
+
+}
+}
+@media screen and (min-width: 790px) and (max-width:1023px){
+
+.carrousel-one{
+width: 180px;
+height: 200px;
+
+}
+.button-carrousel{
+margin-top: 40%;
+margin-left: 15px; 
+
+}
+}
+
+
+
+/*catalogo*/
+.container-catalogo{
+padding-top: 40px;
+display: flex;
+flex-direction: row; 
+padding-bottom: 50px; 
+justify-content: space-between; 
+background-color:#E95A21 ; 
+padding-left: 200px;
+padding-right: 200px;
+}
+
+.catalogo-img img{
+margin-top:40px; 
+width: 380px;   
+}
+
+.cat-tittle{
+color:white;
+font-family: Montserrat-medium;
+font-size: 35px;
+
+}
+.cat-text{
+font-family: Montserrat-regular;
+color:white;
+font-size: 20px;
+} 
+
+.button-download button{
+width: 200px;
+height: 60px;
+color:white;
+background-color: #E95A21;
+border:solid 1px white;
+font-family: Montserrat-ligth;
+font-size: 20px;
+}
+
+.button-download{
+margin-top: 40%;
+display: flex;
+margin-bottom: 100px !important; 
+margin-left: 100px;
+font-family: Montserrat-ligth;
+}
+    
+@media screen and (min-width: 300px) and (max-width: 580px){
+
+.container-catalogo{
+
+flex-direction: column; 
+padding-bottom: 50px; 
+justify-content: space-between; 
+background-color:#E95A21 ; 
+padding-left: 10px;
+padding-right: 10px;
+}
+.cat-tittle{
+color:white;
+font-family: Montserrat-medium;
+font-size: 35px;
+margin-top:100px;
+
+}
+.button-download{
+margin-top: 100px;
+}
+
+.catalogo-img img{
+width: 300px;    
+}
+    
+}
+@media screen and (min-width: 580px) and (max-width: 790px){
+
+.container-catalogo{
+
+flex-direction: column; 
+padding-bottom: 50px; 
+justify-content: space-between; 
+background-color:#E95A21 ; 
+padding-left: 120px;
+padding-right: 120px;
+}
+.cat-tittle{
+color:white;
+font-family: Montserrat-medium;
+font-size: 35px;
+margin-top:100px;
+
+}
+.button-download{
+margin-top: 100px;
+}
+    
+}
+@media screen and (min-width: 790px) and (max-width: 920px){
+
+.container-catalogo{
+
+flex-direction: column; 
+padding-bottom: 50px; 
+justify-content: space-between; 
+background-color:#E95A21 ; 
+padding-left: 150px;
+padding-right: 150px;
+}
+.cat-tittle{
+color:white;
+font-family: Montserrat-medium;
+font-size: 35px;
+margin-top:100px;
+
+}
+.button-download{
+margin-top: 100px;
+}
+    
+}
+@media screen and (min-width: 920px) and (max-width: 1450px){
+
+.container-catalogo{
+
+flex-direction: row; 
+padding-bottom: 50px; 
+justify-content: space-between; 
+background-color:#E95A21 ; 
+padding-left: 10px;
+padding-right: 10px;
+}
+.cat-tittle{
+color:white;
+font-family: Montserrat-medium;
+font-size: 35px;
+margin-top:100px;
+
+}
+.button-download{
+margin-top: 250px;
+}
+.catalogo-img{
+margin-right: 50px;
+ margin-top:50px;   
+}
+    
+}
+
+/**footer*/
+
+.footer{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top:80px;
+margin-left: 200px;
+margin-right: 200px;
+margin-bottom:80px;
+}
+
+
+.footer-logo{
+ display:flex;
+ flex-direction: column; 
+ font-family: Montserrat-medium;
+ color:#2E4356; 
+ width: 25%;  
+ font-size: 7px;
+}
+
+.img-footer-one{
+width: 180px;    
+}
+.img-footer-two{
+width: 100px;    
+}
+.footer-menu{
+margin-top:10px;
+margin-bottom: 10;
+list-style: none;    
+display:flex;
+flex-direction: row; 
+ 
+}
+
+
+.footer-black{
+color:#2E4356;   
+}
+.footer-orange{
+color:#E95A21 ; 
+}
+.footer-menu li{
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 30px;
+font-family: Montserrat-medium;  
+}
+.footer-menu li:hover{
+ cursor: pointer;   
+}
+
+.footer-tel{
+list-style: none;    
+display:flex;
+flex-direction: column; 
+font-family: Montserrat-medium;  
+ color:#2E4356;  
+}
+
+.f-tel{
+margin-top:20px;
+font-family: Montserrat-bold;   
+}
+
+.p-tel{
+ margin-top:40px;   
+}
+
+.barra{
+ width: 50px;   
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 580px){
+.footer{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top:80px;
+margin-left: 30px;
+margin-right: 0px;
+margin-bottom:80px;
+}
+.barra{
+ width: 0px;   
+}
+
+.footer-tel{
+border-top: 3px solid #E95A21;    
+}
+.footer-logo p {
+width: 280px;
+ font-size: 10px;
+}
+.footer-logo {
+margin-bottom: 30px;    
+}
+.footer-tel{
+font-size: 12px;    
+}
+
+
+}
+@media screen and (min-width: 580px) and (max-width: 790px){
+.footer{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top:100px;
+margin-left: 150px;
+margin-right: 80px;
+margin-bottom:80px;
+}
+.barra{
+ width: 0px;   
+}
+
+.footer-tel{
+border-top: 3px solid #E95A21;    
+}
+.footer-logo p {
+    width: 350px;
+ font-size: 10px;
+}
+.footer-logo {
+margin-bottom: 30px;  
+
+}
+
+
+}
+
+
