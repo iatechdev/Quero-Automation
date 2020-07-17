@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Montserrat-medium;
+    src: url(../Fuentes/montserrat/Montserrat-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: Montserrat-ligth;
+    src: url(../Fuentes/montserrat/Montserrat-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: Montserrat-semiBold;
+    src: url(../Fuentes/montserrat/Montserrat-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Montserrat-regular;
+    src: url(../Fuentes/montserrat/Montserrat-Regular.ttf);
+  }
+  @font-face {
+    font-family: Montserrat-bold;
+    src: url(../Fuentes/montserrat/Montserrat-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: Myriadpro;
+    src: url(../Fuentes/myriadpro/MYRIADPRO-REGULAR.OTF);
+  }
+  @font-face {
+    font-family: eurostile;
+    src: url(../Fuentes/eurostile/eurostile-bold.otf);
+  }
+
+.background-emp{
+background-color:#F2F2F2;    
+}
+.lideres{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top:50px;
+margin-bottom:50px;
+}
+
+.lideres h1{
+font-family: eurostile; 
+color:#2E4356;
+font-size: 50px; 
+}
+
+.lideres p{
+font-family: Montserrat-regular;  
+color:#5F5C5B;
+font-size: 20px;
+}
+
+
+
+.button-margin{
+ margin-top:30px;   
+}
+
+

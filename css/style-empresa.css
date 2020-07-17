@@ -1,0 +1,529 @@
+@font-face {
+  font-family: Montserrat-medium;
+  src: url(../Fuentes/montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ligth;
+  src: url(../Fuentes/montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-semiBold;
+  src: url(../Fuentes/montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat-regular;
+  src: url(../Fuentes/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-bold;
+  src: url(../Fuentes/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Myriadpro;
+  src: url(../Fuentes/myriadpro/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+  font-family: eurostile;
+  src: url(../Fuentes/eurostile/eurostile-bold.otf);
+}
+
+.intercambio-p{
+ font-family: Montserrat-bold; 
+ font-size: 25px;
+ color:#5F5C5B;
+}
+
+.hr-emp {
+  color: #cccccc;
+  border: 0.5px solid #cccccc;
+  opacity: 1;
+}
+.container-empresa-one {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.container-empresa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container-empresa-somos {
+  display: flex;
+  flex-direction: column;
+}
+.container-empresa-somos h3 {
+  font-family: eurostile;
+  font-size: 50px;
+  color: #2e4356;
+}
+
+.container-empresa-somos p {
+  font-family: Montserrat-regular;
+  color: #5f5c5b;
+}
+
+.empresa-img {
+  width: 400px;
+  height: 100%;
+  background-color: #f2f2f2;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+}
+.empresa-img p {
+  font-family: Montserrat-regular;
+  margin-top: 60%;
+  color: #5f5c5b;
+}
+
+.empr-world {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.empr-world-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.empr-world-text h3 {
+  margin-block-end:0px;
+  font-family: eurostile;
+  font-size: 31px;
+  color: #2e4356;
+}
+.empr-world-text p {
+  width: 500px;
+  font-family: Montserrat-regular;
+  color: #5f5c5b;
+}
+.empr-world-img img {
+  margin-top: 100px;
+}
+
+.empr-world-img {
+}
+
+.empr-world-img-two {
+  display: flex;
+  flex-direction: column;
+}
+.empr-world-img-two h3 {
+  font-family: Montserrat-regular;
+  color: #5f5c5b;
+  font-size: 30px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.iso {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 150px;
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+  font-family: Montserrat-regular;
+  color: #5f5c5b;
+  padding:0px;
+}
+ul li {
+  padding-bottom: 10px;
+}
+ul img {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.container-info-empr {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.strong-negrilla {
+  font-family: Montserrat-bold;
+}
+
+.info-emp-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-emp-two {
+  display: flex;
+  flex-direction: column;
+}
+.button-empresa button {
+  width: 150px;
+  height: 40px;
+  color: #e95a21;
+  background-color: white;
+  border: solid 1px #e95a21;
+  font-family: Montserrat-ligth;
+  font-size: 15px;
+}
+
+.empr-world-img h3 {
+  font-family: Montserrat-regular;
+  color: #5f5c5b;
+  font-size: 30px;
+}
+.margin {
+  font-family: Montserrat-regular;
+  margin-right: 80px;
+}
+
+.margin-two {
+  margin-right: 36px;
+}
+.valor {
+  background-color: #f2f2f2;
+}
+.container-valor {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-valor-tittle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-valor-tittle h3 {
+  font-family: Montserrat-bold;
+  font-size: 34px;
+  color: #2e4356;
+  margin-block-end: 0px;
+}
+.container-valor-tittle p {
+  font-family: Montserrat-bold;
+  font-size: 18px;
+  color: #707070;
+}
+
+.container-valor-text {
+  display: flex;
+  flex-direction: column;
+}
+.container-valor-text p {
+  width: 500px;
+  font-family: Montserrat-regular;
+  color: #5f5c5b;
+}
+
+/*staff*/
+
+.staff {
+  display: flex;
+  flex-direction: column;
+}
+
+.staff {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+
+.staff h3 {
+  color: #5f5c5b;
+  font-family: Myriadpro;
+  font-size: 35px;
+  letter-spacing: 3.1px;
+}
+
+.staff-flag {
+  display: flex;
+  flex-direction: row;
+}
+
+.staff-flag img {
+  width: 30px;
+  height: 18px;
+  padding: 5px;
+}
+
+.li-name {
+  list-style: none;
+  color: #e95a21;
+  font-family: Montserrat-bold;
+  font-size: 20px;
+}
+
+.li-text {
+  color: #5f5c5b;
+  list-style: none;
+  font-family: Montserrat-regular;
+}
+
+.container-staff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.staff-one {
+  display: flex;
+  flex-direction: column;
+}
+.staff-im {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.staff-image {
+  border: solid 1px #5f5c5b;
+  border-radius: 100%;
+}
+
+.staff-image {
+  border-color: #cccccc;
+  width: 250px;
+}
+.staff-text {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.staff-text p {
+  margin-block-end: 0px;
+}
+
+.img-circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-circle img {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.staff-flag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*margin-service*/
+.margin-service{
+margin-top:35px;  
+margin-right: 300px; 
+}
+
+.margin-service-reparacion{
+
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 580px) {
+.margin-service{
+margin-top:35px;  
+margin-right: 0px; 
+}  
+  .staff-flag {
+    margin-left: 50px;
+  }
+  .staff {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+  }
+  .staff-im {
+    align-items: center;
+  }
+  .container-staff {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .margin {
+    margin-right: 2px;
+  }
+
+  .container-valor {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .container-valor-text p {
+    width: 310px;
+  }
+
+  .container-empresa-one {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .empr-world {
+    flex-direction: column;
+  }
+
+  .empr-world-text p {
+    width: 310px;
+  }
+
+  .container-empresa {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .container-empresa-somos h3 {
+    font-size: 30px;
+    color: #2e4356;
+  }
+  .empresa-img {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 790px) {
+  .staff-flag {
+    margin-left: 50px;
+  }
+  .staff {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+  }
+  .staff-im {
+    align-items: center;
+  }
+  .container-staff {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .margin-two {
+    margin-right: 1x;
+  }
+  .margin {
+    margin-right: 2px;
+  }
+  .container-empresa-one {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .empr-world {
+    flex-direction: column;
+  }
+
+  .empr-world-text p {
+    width: 400px;
+  }
+  .container-valor {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-valor-text p {
+    width: 400px;
+  }
+
+  .container-empresa {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .container-empresa-somos h3 {
+    font-size: 40px;
+    color: #2e4356;
+  }
+  .empresa-img {
+    width: 400px;
+  }
+
+  .staff-im {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .staff-flag {
+    margin-left: 50px;
+  }
+  .staff {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+  }
+  .staff-im {
+    align-items: center;
+  }
+}
+@media screen and (min-width: 791px) and (max-width: 980px) {
+  .staff-flag {
+    margin-left: 50px;
+  }
+  .staff {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+  }
+  .staff-im {
+    align-items: center;
+  }
+  .container-staff {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .margin-two {
+    margin-right: 1x;
+  }
+  .margin {
+    margin-right: 2px;
+  }
+  .container-empresa-one {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container-empresa {
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .container-empresa-somos h3 {
+    font-size: 40px;
+    color: #2e4356;
+  }
+  .empresa-img {
+    width: 400px;
+  }
+
+  .container-valor {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: row;
+  }
+}

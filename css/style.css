@@ -1,8 +1,7 @@
 body {
 margin:0;
 padding:0;
-  }
-
+}
 
 .header{
 background-image: url(../img/Foto\ banner.png);
@@ -17,6 +16,19 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 
+
+}
+.header-two{
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(../img/Rectángulo\ 50@2x.png);
+background-color: rgba(0,0,0,0.8);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 
 }
 .header-three{
@@ -140,6 +152,7 @@ font-family: Montserrat-medium;
 }
 
 
+
 .container-menu{
  display: flex;
 flex-direction: column;
@@ -236,9 +249,7 @@ color:#E95A21;
 
  }
 
- .container-menu-two a{
-     
- }
+
 
 
 @media (max-width: 780px) {
@@ -429,7 +440,7 @@ margin-bottom: 100px !important;
     margin-left:50px;
     font-size: 30px; 
    
-        }
+    }
 
     .button-open{
    justify-content: center;
@@ -437,16 +448,14 @@ margin-bottom: 100px !important;
     }
 
     .container-header-tel-two select{
-        
-        margin-left: 10px;
-       }
+ margin-left: 10px;
+}
        
 
        
-       .container-header-tel-one p{
+ .container-header-tel-one p{
      
-      
-       font-size: 10px; 
+font-size: 10px; 
      
        }
 }
@@ -779,24 +788,29 @@ background-color: #F2F2F2;
  .aliados-one{
 display:flex;
  flex-direction: column;
-padding-left:200px;
-padding-right: 200px;
+justify-content: space-between;
 
+ }
+ 
+ .strong-orange{
+color:#E95A21;
  }
 
  .container-aliados-one{
+padding-left: 250px;  
+padding-right: 250px;   
 display:flex;
 flex-direction: row; 
-width: 600px;
+justify-content:space-between;
 
    }
 
- .container-aliados-tittle{
+.container-aliados-tittle{
 margin-top:20px;
 display:flex;
 flex-direction: column;
 align-items: center;    
- }
+}
  .container-aliados-tittle p{
 font-family: Montserrat-regular;
 color:#2E4356;
@@ -806,26 +820,27 @@ font-size: 50px;
 .electronic{
 display:flex;
 flex-direction: column;
-margin-right: 500px;
+
 }
 
 .electronic img{
  width:400px;   
 }
 
-
-
 .electronic p{
-    font-family: Montserrat-regular;
+width: 500px;
+font-family: Montserrat-regular;
+color:#5F5C5B;
 }
 
 .fenie{
 display:flex;
-flex-direction: column; 
-width: 500px;  
+flex-direction: column;   
  }
 .fenie p{
-    font-family: Montserrat-regular;
+width: 500px;
+font-family: Montserrat-regular;
+color:#5F5C5B;
 }
 .fenie img{
 width:400px;
@@ -837,13 +852,12 @@ height: 180px;
   .container-aliados{
 display:flex;
 flex-direction: column;
-background-color: #F2F2F2;
 }
 
  .aliados-one{
-display:flex;
+
  flex-direction: column;
-padding-left:10px;
+padding-left:20px;
 padding-right: 10px;
 
  }
@@ -855,8 +869,7 @@ flex-direction: column;
 align-items: center;    
  }
  .container-aliados-tittle p{
-font-family: Montserrat-regular;
-color:#2E4356;
+
 font-size: 20px;
  }
 
@@ -872,38 +885,145 @@ flex-direction: column;
 }
 
 .container-aliados-one{
- display:flex;
- flex-direction: column; 
-margin-left:30px;
-
- justify-content:space-between;
+padding-left: 20px;  
+ 
+flex-direction: column;
 }
 
 .electronic p{
-    font-family: Montserrat-regular;
+font-size: 17px;
+width: 300px;
 }
 .fenie p{
-    font-family: Montserrat-regular;
+font-size: 16px;
+width: 300px;
 }
 .fenie img{
 width:250px;
 height: 180px;      
 }
-.fenie{
-display:flex;
-flex-direction: column; 
-width: 500px;  
-
-
-}
-
 
 
 
 }
-
-
-
+@media screen and (min-width: 580px) and (max-width: 750px){
+    .container-aliados{
+  display:flex;
+  flex-direction: column;
+  }
+  
+   .aliados-one{
+  
+   flex-direction: row;
+  padding-left:20px;
+  padding-right: 10px;
+  
+   }
+  
+   .container-aliados-tittle{
+  margin-top:20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;    
+   }
+   .container-aliados-tittle p{
+  
+  font-size: 20px;
+   }
+  
+  .electronic{
+  display:flex;
+  flex-direction: column;
+  
+  
+  }
+  
+  .electronic img{
+   width:300px;   
+  }
+  
+  .container-aliados-one{
+  padding-left: 120px;  
+   
+  flex-direction: column;
+  }
+  
+  .electronic p{
+  font-size: 17px;
+  width: 300px;
+  }
+  .fenie p{
+  font-size: 16px;
+  width: 300px;
+  }
+  .fenie img{
+  width:250px;
+  height: 180px;      
+  }
+  
+  
+  
+  }
+ @media screen and (min-width: 750px) and (max-width: 920px){
+    .container-aliados{
+  display:flex;
+  flex-direction: column;
+  }
+  
+   .aliados-one{
+  
+   flex-direction: row;
+  padding-left:20px;
+  padding-right: 10px;
+  
+   }
+  
+   .container-aliados-tittle{
+  margin-top:20px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;    
+   }
+   .container-aliados-tittle p{
+  
+  font-size: 20px;
+   }
+  
+  .electronic{
+  display:flex;
+  flex-direction: column;
+  margin-right: 90px;
+  
+  }
+  
+  .electronic img{
+   width:300px;   
+  }
+  
+  .container-aliados-one{
+  padding-left: 20px;  
+padding-right: 10px;
+justify-content: space-between;
+  flex-direction: row;
+  }
+  
+  .electronic p{
+   margin-top:58px;   
+  font-size: 17px;
+  width: 300px;
+  }
+  .fenie p{
+  font-size: 16px;
+  width: 300px;
+  }
+  .fenie img{
+  width:250px;
+  height: 180px;      
+  }
+  
+  
+  
+  } 
 
 
 
@@ -927,12 +1047,13 @@ align-items: center;
 display:flex;
 flex-direction: row;
 justify-content: center;
-       
+      
 }
 
 .container-fabricantes-img img{
  width: 50px;  
  margin-top:70px; 
+
 }
 
 
@@ -967,8 +1088,12 @@ margin-left: 60px;
 font-family: Montserrat-ligth;
 }
 
-@media screen and (min-width: 300px) and (max-width: 580px){
+.catalogo-text-tittle{
+ padding-left: 20px;
+ padding-right: 20px;   
+}
 
+@media screen and (min-width: 300px) and (max-width: 580px){
 .container-fabricantes-img{
 padding-left:50px;
 flex-direction: column;
