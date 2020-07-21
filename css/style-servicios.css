@@ -31,7 +31,9 @@
   }
 
 .background-emp{
-background-color:#F2F2F2;    
+background-color:#F2F2F2;   
+padding-top: 40px; 
+padding-bottom: 40px;
 }
 .lideres{
 display: flex;
@@ -39,6 +41,7 @@ flex-direction: column;
 align-items: center;
 margin-top:50px;
 margin-bottom:50px;
+
 }
 
 .lideres h1{
@@ -54,9 +57,16 @@ font-size: 20px;
 }
 
 
-
 .button-margin{
  margin-top:30px;   
 }
 
 
+.margin-serv{
+margin-right: 100px;  
+margin-top:30px;  
+}
+
+.margin-service-reparacion{
+ margin-top:70px;   
+}
