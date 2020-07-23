@@ -10,9 +10,9 @@
   <body>
     <nav class="header-two">
       <div class="container-header">
-        <div class="container-header-icono">
+        <a href="../index.html"><div class="container-header-icono">
           <img src="../img/Logo quero.png" alt="" />
-        </div>
+        </div></a>
         <div class="container-menu">
           <div class="container-header-search-and-tel">
             <div class="container-header-barra-busqueda">
@@ -35,21 +35,57 @@
             </div>
           </div>
           <div class="container-menu-two">
-            <input type="checkbox" id="btn-menu" />
-            <label for="btn-menu">
-              <img class="menu-abierto" src="../img/menu-abierto.png" alt=""
-            /></label>
             <nav class="menu">
               <ul class="menu-list">
-                <li><a href="">EMPRESAS</a></li>
-                <li><a href="./servicios.html">SERVICIOS</a></li>
-                <li><a href="./partner.html">PARTNES</a></li>
-                <li><a href="./energy.html">ENERGY</a></li>
-                <li><a href="./blog.html">BLOG</a></li>
-                <li><a href="">CONTACTO</a></li>
-                <li><a href="">SHOP</a></li>
+                <li>
+                <a class="now" href="./empresa.html">EMPRESAS</a>
+                </li>
+                <li><a class="now-n" href="./servicios.html">SERVICIOS</a></li>
+                <li><a class="now-n" href="./partner.html">PARTNES</a></li>
+                <li><a class="now-n" href="./energy.html">ENERGY</a></li>
+                <li><a class="now-n" href="./blog.html">BLOG</a></li>
+                <li><a class="now-n" href="./contacto.html">CONTACTO</a></li>
+                <li><a class="now" href="./shop.html">SHOP</a></li>
               </ul>
             </nav>
+          </div>
+        </div>
+      </div>
+
+      <!--header responsive-->
+      <div class="container-header-responsive">
+        <div class="options-responsive" id="menures">
+          <div class="container-icon">
+            <a href="javascript:displaynone()">
+              <img class="menu-abierto-one" src="../img/menu-abierto.png" alt=""
+            /></a>
+          </div>
+          <ul class="list-responsive">
+            <div class="idioma-responsive">
+              <li><a class="no-a" href="./index.html">Idioma</a></li>
+
+              <select name="language" id=""> </select>
+            </div>
+            <li><a class="no-a" href="./empresa.html">Empresas</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./partner.html">Partnes</a></li>
+            <li><a href="./energy.html">Energy</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+          </ul>
+        </div>
+        <div class="header-responsive">
+          <div class="header-responsive-two">
+            <a href="javascript:menuresponsive()"
+              ><img
+                class="menu-abierto"
+                src="../img/Icon-Menu-orange.png"
+                alt=""
+            /></a>
+            <img class="img-quero" src="../img/logo footer.png" alt="" />
+
+            <img class="search" src="../img/buscar.png" />
           </div>
         </div>
       </div>
@@ -227,7 +263,7 @@
       </div>
     </div>
 
-    <div class="staff">
+    <div class="staff displaydesktop">
       <h3>NUESTRO STAFF</h3>
       <div class="container-staff">
         <div class="staff-one">
@@ -304,7 +340,83 @@
       </div>
     
     </div>
+    <div class="staff displayresponsive">
+      <h3>NUESTRO STAFF</h3>
+      <div class="container-staff">
+        <div class="staff-one" id="staffone">
+          <div class="staff-im">
+            <img class="staff-image" src="../img/Grupo 218.png" alt="" />
+          </div>
 
+          <div class="staff-text">
+            <li class="li-name">JORGE QUERO</li>
+            <li class="li-text">Sales Manager</li>
+          </div>
+          <div class="staff-flag">
+            <img src="../img/Grupo 104@2x.png" alt="" />
+            <img class="staff-error" src="../img/Grupo 185@2x.png" alt="" />
+            <img src="../img/Grupo 116@2x.png" alt="" />
+            <img src="../img/Grupo 121@2x.png" alt="" />
+            <img src="../img/Grupo 128@2x.png" alt="" />
+            <img src="../img/Grupo 132@2x.png" alt="" />
+          </div>
+          <div class="staff-text">
+            <li class="li-text">+34 91 685 24 03</li>
+            <li class="li-text">jorge@queroautomation.com</li>
+          </div>
+        </div>
+        <div class="staff-two" id="stafftwo">
+          <div class="staff-im">
+            <img class="staff-image" src="../img/Grupo 214.png" alt="" />
+          </div>
+          <div class="staff-text">
+            <li class="li-name">VERÓNICA QUERO</li>
+            <li class="li-text">Financial Director</li>
+          </div>
+          <div class="staff-flag">
+            <img src="../img/Grupo 178.png" alt="" />
+            <img class="staff-error" src="../img/Grupo 185@2x.png" alt="" />
+            <img src="../img/Grupo 116@2x.png" alt="" />
+            <img src="../img/Grupo 121@2x.png" alt="" />
+            <img src="../img/Grupo 128@2x.png" alt="" />
+            <img src="../img/Grupo 132@2x.png" alt="" />
+          </div>
+          <div class="staff-text">
+            <li class="li-text">+34 687 509 613</li>
+            <li class="li-text">veronica@queroautomation.com</li>
+          </div>
+        </div>
+        <div class="staff-three" id="staffthree">
+        <div class="staff-im">
+
+        
+          <img class="staff-image" src="../img/Grupo 224@2x.png" alt="" />
+        </div>
+          <div class="staff-text">
+            <li class="li-name">OSCAR QUERO</li>
+            <li class="li-text">Facility Manager</li>
+          </div>
+          <div class="staff-flag">
+            <img src="../img/Grupo 178.png" alt="" />
+            <img class="staff-error" src="../img/Grupo 185@2x.png" alt="" />
+            <img src="../img/Grupo 116@2x.png" alt="" />
+            <img src="../img/Grupo 121@2x.png" alt="" />
+            <img src="../img/Grupo 128@2x.png" alt="" />
+            <img src="../img/Grupo 132@2x.png" alt="" />
+          </div>
+          <div class="staff-text">
+            <li class="li-text">+34 687 509 613</li>
+            <li class="li-text">oscar@queroautomation.com</li>
+          </div>
+        </div>
+      </div>
+      <div class="img-circle">
+   <a href="javascript:staffone()"><img id="circleone" src="../img/circulo.png" alt=""></a>
+   <a href="javascript:stafftwo()"><img id="circletwo" src="../img/circulo.png" alt=""></a>
+   <a href="javascript:staffthree()"><img id="circlethree"src="../img/circulo.png" alt=""></a>
+      </div>
+    
+    </div>
    
 
     <!---->
@@ -345,16 +457,16 @@
       </div>
       <div class="footer-menu">
         <div cass="menu-one">
-          <li class="footer-black">EMPRESAS</li>
-          <li class="footer-black">SERVICIOS</li>
+          <a href="../views/empresa.html"><li class="footer-black">EMPRESAS</li></a>
+          <a href="../views/servicios.html"></a><li class="footer-black">SERVICIOS</li>
           <li class="footer-black">ALIANZAS</li>
-          <li class="footer-black">ENERGIA</li>
+          <a href="../views/energy.html"><li class="footer-black">ENERGIA</li></a>
         </div>
         <div cass="menu-two">
-          <li class="footer-black">CONTACTO</li>
+          <a href="../views/contacto.html"><li class="footer-black">CONTACTO</li></a>
           <li class="footer-black">SHOP</li>
           <li class="footer-orange">DESCARGAS</li>
-          <li class="footer-orange">BLOG</li>
+          <a href="./views/blog.html"><li class="footer-orange">BLOG</li></a>
         </div>
       </div>
       <img class="barra" src="../img/barra.png" alt="" />
@@ -363,12 +475,13 @@
           C/ REGORDOÑO, 13,<br />
           28936 MÓSTOLES - MADRID (ESPAÑA)
         </p>
-
+  
         <li class="f-tel">TELÉFONOS</li>
         <li>+34 91 685 24 03</li>
-
+  
         <p class="p-tel">JC-ELECTRONICS@QUEROAUTOMATION.COM</p>
       </div>
     </footer>
+    <script src="../js/index.js"></script>
   </body>
 </html>

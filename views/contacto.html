@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quero Automation</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style-empresa.css" />
+    <link rel="stylesheet" href="../css/style-servicios.css" />
   </head>
-  <body>
+  <body >
+ 
+  
+   <div class="container-all" id="dark">
+  
     <nav class="header-seven">
        
       <div class="container-header">
-        <div class="container-header-icono">
+        <a href="../index.html"><div class="container-header-icono">
           <img src="../img/Logo quero.png" alt="" />
-        </div>
+        </div></a>
         <div class="container-menu">
           <div class="container-header-search-and-tel">
             <div class="container-header-barra-busqueda">
@@ -35,30 +41,64 @@
             </div>
           </div>
           <div class="container-menu-two">
-              <input type="checkbox"  id="btn-menu">
-              <label for="btn-menu"> <img class="menu-abierto" src="../img/menu-abierto.png" alt=""></label>
-              <nav class="menu">
-
-                <ul class="menu-list">
-                    <li><a href="">EMPRESAS</a></li>
-                    <li><a href="./servicios.html">SERVICIOS</a></li>
-                    <li><a href="./partner.html">PARTNES</a></li>
-                    <li><a href="./energy.html">ENERGY</a></li>
-                    <li><a href="./blog.html">BLOG</a></li>
-                    <li><a href="">CONTACTO</a></li>
-                    <li><a href="">SHOP</a></li>
-                </ul>
-
-              </nav>
-         
+            <nav class="menu">
+              <ul class="menu-list">
+                <li>
+                  <a class="now-n" href="./empresa.html">EMPRESAS</a>
+                </li>
+                <li><a class="now-n" href="./servicios.html">SERVICIOS</a></li>
+                <li><a class="now-n" href="./partner.html">PARTNES</a></li>
+                <li><a class="now-n" href="./energy.html">ENERGY</a></li>
+                <li><a class="now-n" href="./blog.html">BLOG</a></li>
+                <li><a class="now" href="./contacto.html">CONTACTO</a></li>
+                <li><a class="now" href="./shop.html">SHOP</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
-      
+      </div>
+
+      <!--header responsive-->
+      <div class="container-header-responsive">
+        <div class="options-responsive" id="menures">
+          <div class="container-icon">
+            <a href="javascript:displaynone()">
+              <img class="menu-abierto-one" src="../img/menu-abierto.png" alt=""
+            /></a>
+          </div>
+          <ul class="list-responsive">
+            <div class="idioma-responsive">
+              <li><a class="no-a" href="./index.html">Idioma</a></li>
+
+              <select name="language" id=""> </select>
+            </div>
+            <li><a class="no-a" href="./empresa.html">Empresas</a></li>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./partner.html">Partnes</a></li>
+            <li><a href="./energy.html">Energy</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+          </ul>
+        </div>
+        <div class="header-responsive">
+          <div class="header-responsive-two">
+            <a href="javascript:menuresponsive()"
+              ><img
+                class="menu-abierto"
+                src="../img/Icon-Menu-orange.png"
+                alt=""
+            /></a>
+            <img class="img-quero" src="../img/logo footer.png" alt="" />
+
+            <img class="search" src="../img/buscar.png" />
+          </div>
+        </div>
       </div>
       <hr class="hr">
       <div class="container-nav-text">
  
-   <p>QUERO ENERGY</p>
+   <p>CONTACTO</p>
         
         </div>
 
@@ -67,7 +107,56 @@
 
 
     
+<div class="container-contacto">
 
+  <div class="contacto-form">
+ <input type="text" placeholder="NOMBRE">
+ <input type="text" placeholder="EMAIL">
+ <input type="text" placeholder="TELÉFONO">
+ <textarea name="textarea" rows="10" cols="50" placeholder="MENSAJE"></textarea>
+  </div>
+  <div class="contacto-text">
+  <h3>¿NECESITAS <br>
+    UN EQUIPO NUEVO,<br>
+    REACONDICIONADO,<br>
+     REPARAR O  <br>
+     INTERCAMBIAR?</h3>
+
+     <p>Nosotros te la conseguimos con rapidez  <br>
+      y a un PRECIO INMEJORABLE.</p>
+      <p>+34 916 852 403 <br>
+        TEL.: 0034 91 685 24 03 <br>
+        FAX: 0034 91 685 24 04<br>
+        C/ RE GORDOÑO 13, MÓS TOLES <br>
+        MADRID – 289 36 – ESPAÑA</p>
+  </div>
+</div>
+<div class="container-adj">
+
+ <div class="container-adj-img">
+  <p>ADJUNTAR ARCHIVO</p> <img src="../img/Grupo 573.png" alt="">
+ </div>
+ <label class="lb-one"><input type="checkbox" id="cbox1" value="first_checkbox"> HE LEÍDO Y ACEPTO LA POLÍTICA DE PRIVACIDAD</label>
+ <label class="lb-two"><input type="checkbox" id="cbox1" value="first_checkbox"> ACEPTO Y AUTORIZO A QUE MIS DATOS SEAN TRATADOS POR GRUPO QUERO JC-ELECTRONICS SPAIN S.L.U. (WWW.QUEROAUTOMATION.COM), CON LAS FINALIDADES INDICADAS EN LA POLÍTICA DE PRIVACIDAD PARA REMITIRME, POR CUALQUIER MEDIO, INCLUIDOS LOS ELECTRÓNICOS (SMS, MENSAJERÍA DIRECTA, CORREO ELECTRÓNICO), BOLETINES (NEWSLETTERS) INFORMANDO ACERCA DE PRODUCTOS O SERVICIOS DE GRUPO QUERO JC-ELECTRONICS SPAIN S.L.U. (WWW.QUEROAUTOMATION.COM) Y COMUNICACIONES DE CORTESÍA.</label>
+
+</div>
+<div>
+  <a href="javascript:showwindow()"><div class="button-adj">
+  <button>ENVIAR</button></a>
+</div>
+
+<div class="maps-adj">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.1440266863965!2d-3.8466618851848997!3d40.316960979376866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418c181b434bcb%3A0xdb22ab285dbf50ac!2zQ2FsbGUgUmVnb3Jkb8OxbywgMTMsIDI4OTM2IE3Ds3N0b2xlcywgTWFkcmlkLCBFc3Bhw7Fh!5e0!3m2!1ses!2sco!4v1595361463982!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+<div class="work">
+<h3>¿QUIERES TRABAJAR <br>
+  CON NOSOTROS?
+</h3>
+<div class="cv">
+  <p class="cv-p"> Envíanos tu CV </p> <p class="p-orange">INFO @QUEROAUTOMATION.COM</p>
+  </div>
+</div>
 
 
      <!--catalogo-->
@@ -81,7 +170,6 @@
 DE DESCARGA</p>
 <p class="cat-text">Descubre todo nuestro portafolio de<br>servicios, repuestos electrónicos de<br>
     automatización nuevos-descatalogados<br>nuevos-actuales y reacondicionados.
-
 </p>
 </div>
 
@@ -97,43 +185,64 @@ DE DESCARGA</p>
    </div>
 
    
- <footer class="footer">
-<div class="footer-logo">
-<img class="img-footer-one" src="../img/logo footer.png" alt="">
-<img class="img-footer-two" src="../img/flt.png" alt="">
-<p>QUERO Automation ® 2020 | Repuestos de Automatización Industrial QUERO Automation ® no es Distribuidor Oficial ni Representante de los fabricantes que aparecen en nuestra web.</p>
+   <footer class="footer">
+    <div class="footer-logo">
+      <img class="img-footer-one" src="../img/logo footer.png" alt="" />
+      <img class="img-footer-two" src="../img/flt.png" alt="" />
+      <p>
+        QUERO Automation ® 2020 | Repuestos de Automatización Industrial QUERO
+        Automation ® no es Distribuidor Oficial ni Representante de los
+        fabricantes que aparecen en nuestra web.
+      </p>
+    </div>
+    <div class="footer-menu">
+      <div cass="menu-one">
+        <a href="../views/empresa.html"><li class="footer-black">EMPRESAS</li></a>
+        <a href="../views/servicios.html"></a><li class="footer-black">SERVICIOS</li>
+        <li class="footer-black">ALIANZAS</li>
+        <a href="../views/energy.html"><li class="footer-black">ENERGIA</li></a>
+      </div>
+      <div cass="menu-two">
+        <a href="../views/contacto.html"><li class="footer-black">CONTACTO</li></a>
+        <li class="footer-black">SHOP</li>
+        <li class="footer-orange">DESCARGAS</li>
+        <a href="./views/blog.html"><li class="footer-orange">BLOG</li></a>
+      </div>
+    </div>
+    <img class="barra" src="../img/barra.png" alt="" />
+    <div class="footer-tel">
+      <p>
+        C/ REGORDOÑO, 13,<br />
+        28936 MÓSTOLES - MADRID (ESPAÑA)
+      </p>
+
+      <li class="f-tel">TELÉFONOS</li>
+      <li>+34 91 685 24 03</li>
+
+      <p class="p-tel">JC-ELECTRONICS@QUEROAUTOMATION.COM</p>
+    </div>
+  </footer>
+
+
+  
+
+
+
 </div>
-<div class="footer-menu">
-<div cass="menu-one">
-   <li class="footer-black">EMPRESAS</li>
-   <li class="footer-black">SERVICIOS</li>
-   <li class="footer-black">ALIANZAS</li> 
-   <li class="footer-black">ENERGIA</li> 
-</div>
-<div cass="menu-two">
-    <li class="footer-black">CONTACTO</li>
-    <li class="footer-black">SHOP</li>
-    <li class="footer-orange">DESCARGAS</li> 
-    <li class="footer-orange"> BLOG</li>
- </div>
-</div>
-<img class="barra" src="../img/barra.png" alt="">
-<div class="footer-tel">
-    <p>C/ REGORDOÑO, 13,<br>
-    28936 MÓSTOLES - MADRID (ESPAÑA)
-    </p>
-
-    <li class="f-tel">TELÉFONOS</li>
-    <li>+34 91 685 24 03</li>
-
-    <p class="p-tel">JC-ELECTRONICS@QUEROAUTOMATION.COM</p>
-
-
-</div>
-
-
-    
-</footer>
+<script src="../js/index.js"></script>
 
   </body>
+  <div class="ventana" id="vent">
+    <div class="ventana-one">
+      <img src="../img/reparacion icon.png" alt="">
+      <p>Envíanos los datos de la pieza que<br>
+         quieres reparar para poder enviar la<br>
+         oferta o ponernos en contacto</p>
+        <a href="javascript:noshow()"> <div class="button-send-one">
+          <button>ACEPTAR</button></a>
+      </div>
+    </div>
+
+
+   
 </html>

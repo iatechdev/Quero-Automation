@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quero Automation</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style-empresa.css">
   </head>
   <body>
     <nav class="header">
-       
       <div class="container-header">
-        <div class="container-header-icono">
+        <a href="./index.html"><div class="container-header-icono">
           <img src="./img/Logo quero.png" alt="" />
-        </div>
+        </div></a>
         <div class="container-menu">
           <div class="container-header-search-and-tel">
             <div class="container-header-barra-busqueda">
@@ -35,263 +35,457 @@
             </div>
           </div>
           <div class="container-menu-two">
-              <input type="checkbox"  id="btn-menu">
-              <label for="btn-menu"> <img class="menu-abierto" src="./img/menu-abierto.png" alt=""></label>
-              <nav class="menu">
-
-                <ul class="menu-list">
-                    <li><a class="color-orange" href="./index.html">EMPRESAS</a></li>
-                    <li><a href="./views/servicios.html">SERVICIOS</a></li>
-                    <li><a href="./views/partner.html">PARTNES</a></li>
-                    <li><a href="./views/energy.html">ENERGY</a></li>
-                    <li><a href="./views/blog.html">BLOG</a></li>
-                    <li><a href="./views/contacto.html">CONTACTO</a></li>
-                    <li><a href="./views/shop.html">SHOP</a></li>
-                </ul>
-
-              </nav>
-         
+            <nav class="menu">
+              <ul class="menu-list">
+                <li>
+                  <a class="now-n" href="./index.html">EMPRESAS</a>
+                </li>
+                <li><a class="now-n" href="./views/servicios.html">SERVICIOS</a></li>
+                <li><a class="now-n" href="./views/partner.html">PARTNES</a></li>
+                <li><a class="now-n" href="./views/energy.html">ENERGY</a></li>
+                <li><a class="now-n" href="./views/blog.html">BLOG</a></li>
+                <li><a class="now-n" href="./views/contacto.html">CONTACTO</a></li>
+                <li><a class="now" href="./views/shop.html">SHOP</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
-      
       </div>
-      <hr class="hr">
-      <div class="container-visita">
- 
-          <div class="img-cuadros">
-            <img src="./img/cuadrados.png" alt="">
-            <img src="./img/cuadrados.png" alt="">
-            <img src="./img/cuadrados.png" alt="">
+
+      <!--header responsive-->
+      <div class="container-header-responsive">
+        <div class="options-responsive" id="menures">
+          <div class="container-icon">
+            <a href="javascript:displaynone()">
+              <img class="menu-abierto-one" src="./img/menu-abierto.png" alt=""
+            /></a>
           </div>
-        <div class="container-visita-one">
-           <li class="tittle"><span>VISITA</span></li>
-           <li>NUESTRAS TIENDAS</li>
-            <div class="button-open">
-                <button>Entrar</button>
+          <ul class="list-responsive">
+            <div class="idioma-responsive">
+              <li><a class="no-a" href="./index.html">Idioma</a></li>
+
+              <select name="language" id=""> </select>
             </div>
-            
+            <li><a class="no-a" href="./index.html">Empresas</a></li>
+            <li><a href="./views/servicios.html">Servicios</a></li>
+            <li><a href="./views/partner.html">Partnes</a></li>
+            <li><a href="./views/energy.html">Energy</a></li>
+            <li><a href="./views/blog.html">Blog</a></li>
+            <li><a href="./views/contacto.html">Contacto</a></li>
+            <li><a href="./views/shop.html">Shop</a></li>
+          </ul>
         </div>
-        
+        <div class="header-responsive">
+          <div class="header-responsive-two">
+            <a href="javascript:menuresponsive()"
+              ><img
+                class="menu-abierto"
+                src="./img/Icon-Menu-orange.png"
+                alt=""
+            /></a>
+            <img class="img-quero" src="./img/logo footer.png" alt="" />
+
+            <img class="search" src="../img/buscar.png" />
+          </div>
         </div>
+      </div>
 
-
+      <hr class="hr" />
+      <div class="container-visita">
+        <div class="img-cuadros">
+          <img src="./img/cuadrados.png" alt="" />
+          <img src="./img/cuadrados.png" alt="" />
+          <img src="./img/cuadrados.png" alt="" />
+        </div>
+        <div class="container-visita-one">
+          <li class="tittle"><span>VISITA</span></li>
+          <li>NUESTRAS TIENDAS</li>
+          <div class="button-open">
+            <button>Entrar</button>
+          </div>
+        </div>
+      </div>
     </nav>
 
-<div class="container-info">
-<li class="text-info">Somos uno de los principales distribuidores mundiales <br>
- para los profesionales del sector de la Automatización Industrial.</li>
-<li class="years">30 años de servicio nos respaldan</li>
-
-</div>
-
-<div class="container-info-two">
-<div class="container-info-two-info">
-<div class="container-info-text">
-<img src="./img/Icono venta@2x.png">
-
-<div class="container-info-text-two">
-    <li class="tittle-info">VENTA</li>
-    <li class="text-info">De equipos actuales y descatalogados. Las mejores marcas de automatización y control industrial en baja tensión del mercado, entregas en cualquier parte del mundo Garantía del fabricante</li>
-</div>
-</div>
-<div class="container-info-text">
-    <img src="./img/icono intercambio@2x.png">
-    
-    <div class="container-info-text-two">
-        <li class="tittle-info">INTERCAMBIO</li>
-        <li class="text-info">De piezas y equipos de automatización y electrónica industrial de equipos nuevos, como de equipos descatalogados. Recompra de equipos obsoletos</li>
-    </div>
+    <div class="container-info">
+      <li class="text-info">
+        Somos uno de los principales distribuidores mundiales <br />
+        para los profesionales del sector de la Automatización Industrial.
+      </li>
+      <li class="years">30 años de servicio nos respaldan</li>
     </div>
 
-</div>
-<div class="container-info-two-info">
-    <div class="container-info-text">
-    <img src="./img/Ing. e instalaciones@2x.png">
-    
-    <div class="container-info-text-two">
-        <li class="tittle-info">INGENIERIA E <br>
-             INSTALACIONES</li>
-        <li class="text-info">De equipos actuales y descatalogados. Las mejores marcas de automatización y control industrial en baja tensión del mercado, entregas en cualquier parte del mundo Garantía del fabricante</li>
-    </div>
-    </div>
-    <div class="container-info-text">
-        <img src="./img/reparacion icon@2x.png">
-        
-        <div class="container-info-text-two">
+    <div class="container-info-two">
+      <div class="container-info-two-info">
+        <div class="container-info-text">
+          <img src="./img/Icono venta@2x.png" />
+
+          <div class="container-info-text-two">
+            <li class="tittle-info">VENTA</li>
+            <li class="text-info">
+              De equipos actuales y descatalogados. Las mejores marcas de
+              automatización y control industrial en baja tensión del mercado,
+              entregas en cualquier parte del mundo Garantía del fabricante
+            </li>
+          </div>
+        </div>
+        <div class="container-info-text">
+          <img src="./img/icono intercambio@2x.png" />
+
+          <div class="container-info-text-two">
+            <li class="tittle-info">INTERCAMBIO</li>
+            <li class="text-info">
+              De piezas y equipos de automatización y electrónica industrial de
+              equipos nuevos, como de equipos descatalogados. Recompra de
+              equipos obsoletos
+            </li>
+          </div>
+        </div>
+      </div>
+      <div class="container-info-two-info">
+        <div class="container-info-text">
+          <img src="./img/Ing. e instalaciones@2x.png" />
+
+          <div class="container-info-text-two">
+            <li class="tittle-info">
+              INGENIERIA E <br />
+              INSTALACIONES
+            </li>
+            <li class="text-info">
+              De equipos actuales y descatalogados. Las mejores marcas de
+              automatización y control industrial en baja tensión del mercado,
+              entregas en cualquier parte del mundo Garantía del fabricante
+            </li>
+          </div>
+        </div>
+        <div class="container-info-text">
+          <img src="./img/reparacion icon@2x.png" />
+
+          <div class="container-info-text-two">
             <li class="tittle-info">REPARACIÓN</li>
-            <li class="text-info">De piezas electrónicas, de automatización industrial en baja tensión garantía hasta 24 meses en reparaciones banco de pruebas testeados y certificados</li>
+            <li class="text-info">
+              De piezas electrónicas, de automatización industrial en baja
+              tensión garantía hasta 24 meses en reparaciones banco de pruebas
+              testeados y certificados
+            </li>
+          </div>
         </div>
-        </div>
-    
-    </div>
-    <div class="container-info-two-info">
+      </div>
+      <div class="container-info-two-info">
         <div class="container-info-text">
-        <img src="./img/ind 4.0 icon@2x.png">
-        
-        <div class="container-info-text-two">
+          <img src="./img/ind 4.0 icon@2x.png" />
+
+          <div class="container-info-text-two">
             <li class="tittle-info">INDUSTRIA 4.0</li>
-            <li class="text-info">A la vanguardia y avance de la tecnología nuestros servicios de comunicación, conectividad a través de equipos de monitoreo y gestión de la energía y datos.</li>
-        </div>
+            <li class="text-info">
+              A la vanguardia y avance de la tecnología nuestros servicios de
+              comunicación, conectividad a través de equipos de monitoreo y
+              gestión de la energía y datos.
+            </li>
+          </div>
         </div>
         <div class="container-info-text">
-            <img src="./img/comercializadora icon@2x.png">
-            
-            <div class="container-info-text-two">
-                <li class="tittle-info">COMERCIALIZADORA  <br>
-                    DE LUZ Y GAS</li>
-                <li class="text-info">Las mejores tarifas de energía eléctrica y gas natural a través de nuestra comercializadora.</li>
-            </div>
-            </div>
-        
+          <img src="./img/comercializadora icon@2x.png" />
+
+          <div class="container-info-text-two">
+            <li class="tittle-info">
+              COMERCIALIZADORA <br />
+              DE LUZ Y GAS
+            </li>
+            <li class="text-info">
+              Las mejores tarifas de energía eléctrica y gas natural a través de
+              nuestra comercializadora.
+            </li>
+          </div>
         </div>
-
-
-
-
-
-</div>
-<div class="container-aliados">
-
-    <div class="container-aliados-tittle">
-    <p>NUESTROS ALIADOS</p>
-    </div>
-    <div class="aliados-one">
-        <div class="container-aliados-one">
-            <div class="electronic">
-                <img src="./img/jc.png" alt="">
-                <p>Somos la delegación oficial de la 
-               multinacional <strong class="strong-orange">para Iberia</strong> a <br>
-               (España y Portugal).</p>
-            </div>
-            <div class="fenie">
-                <img src="./img/fenie energia@2x.png" alt="">
-                <p>Somos empresa delegada para Madrid y 
-                 sur de la comunidad de la comercializadora 
-                 de energía y gas  <strong class="strong-orange">Fenie Energía</strong>.</p>
-        
-            </div>
-    
-         
-        </div>
-       
-
+      </div>
     </div>
 
+
+<div class="container-info-responsive" id="contres">
+  <div class="container-res-one" id="resone">
+    <div class="container-info-text margi-responsive">
+      <img src="./img/Icono venta@2x.png" />
+
+      <div class="container-info-text-two">
+        <li class="tittle-info">VENTA</li>
+        <li class="text-info">
+          De equipos actuales y descatalogados.
+           Las mejores 
+            marcas de automatización y control industrial en baja
+             tensión del mercado,
+          entregas en cualquier parte del mundo Garantía del fabricante
+        </li>
+      </div>
+    </div>
+    <div class="container-info-text margi-responsive">
+      <img src="./img/Ing. e instalaciones@2x.png" />
+
+      <div class="container-info-text-two">
+        <li class="tittle-info">
+          INGENIERIA E <br />
+          INSTALACIONES
+        </li>
+        <li class="text-info">
+          De equipos actuales y descatalogados.<br>
+           Las mejores marcas de
+          automatización y control industrial en baja tensión del mercado,
+          entregas en cualquier parte del mundo Garantía del fabricante
+        </li>
+      </div>
+    </div>
+    <div class="container-info-text margi-responsive">
+      <img src="./img/ind 4.0 icon@2x.png" />
+
+      <div class="container-info-text-two">
+        <li class="tittle-info">INDUSTRIA 4.0</li>
+        <li class="text-info">
+          A la vanguardia y avance de la tecnología nuestros servicios de
+          comunicación, conectividad a través de equipos de monitoreo y
+          gestión de la energía y datos.
+        </li>
+      </div>
+    </div>
+
+  </div>
+  <div class="container-res-two" id="restwo">
+    <div class="container-info-text margi-responsive">
+      <img src="./img/icono intercambio@2x.png" />
+
+      <div class="container-info-text-two">
+        <li class="tittle-info">INTERCAMBIO</li>
+        <li class="text-info">
+          De piezas y equipos de automatización y electrónica industrial de
+          equipos nuevos, como de equipos descatalogados. Recompra de
+          equipos obsoletos
+        </li>
+      </div>
+    </div>
+    <div class="container-info-text margi-responsive">
+      <img src="./img/reparacion icon@2x.png" />
+
+      <div class="container-info-text-two">
+        <li class="tittle-info">REPARACIÓN</li>
+        <li class="text-info">
+          De piezas electrónicas, de automatización industrial en baja
+          tensión garantía hasta 24 meses en reparaciones banco de pruebas
+          testeados y certificados
+        </li>
+      </div>
+    </div>
+    <div class="container-info-text margi-responsive">
+      <img src="./img/comercializadora icon@2x.png" />
+
+      <div class="container-info-text-two">
+        <li class="tittle-info">
+          COMERCIALIZADORA <br />
+          DE LUZ Y GAS
+        </li>
+        <li class="text-info">
+          Las mejores tarifas de energía eléctrica y gas natural a través de
+          nuestra comercializadora.
+        </li>
+      </div>
+    </div>
+
+  </div>
+  <div class="img-circle">
+    <a href="javascript:serviceone()"><img id="circleone" src="../img/circulo.png" alt=""></a>
+    <a href="javascript:servicetwo()"><img id="circletwo" src="../img/circulo.png" alt=""></a>
    
-    
-    
-    
-    </div>
-    
-    <!--fabricantes-->
-    <div class="container-fabricantes">
-        <div class="container-aliados-tittle">
-            <p>FABRICANTES</p>
-            </div>
-            <div class="container-fabricantes-img">
-                <div class="fabricantes-flecha">
-                    <img src="./img/atrás.png" alt="">
-                </div>
-           
-       <div class="fabricantes-carrousel">
-       <div class="carrousel-one">
-        <div class="button-carrousel">
-            <button>SIEMS</button>
-        </div>
        </div>
+</div>
 
-       </div>
-       <div class="fabricantes-carrousel">
-        <div class="carrousel-one">
-         <div class="button-carrousel">
-             <button>ADD</button>
-         </div>
+
+
+
+
+
+    <!---Aliados-->
+    <div class="container-aliados">
+      <div class="container-aliados-tittle">
+        <p>NUESTROS ALIADOS</p>
+      </div>
+      <div class="aliados-one">
+        <div class="container-aliados-one">
+          <div class="electronic">
+            
+            <img class="hover-electronic" src="./img/jc.png" alt="" />
+            <p>
+              Somos la delegación oficial de la multinacional
+              <strong class="strong-orange">para Iberia</strong> a <br />
+              (España y Portugal).
+            </p>
+          </div>
+          <div class="fenie">
+            <img src="./img/fenie energia@2x.png" alt="" />
+            <p>
+              Somos empresa delegada para Madrid y sur de la comunidad de la
+              comercializadora de energía y gas
+              <strong class="strong-orange">Fenie Energía</strong>.
+            </p>
+          </div>
         </div>
- 
+      </div>
+    </div>
+
+    <!--fabricantes-->
+    <div class="container-fabricantes fabricantes-desktop">
+      <div class="container-aliados-tittle">
+        <p>FABRICANTES</p>
+      </div>
+      <div class="container-fabricantes-img">
+        <div class="fabricantes-flecha">
+          <img src="./img/atrás.png" alt="" />
+        </div>
+
+        <div class="fabricantes-carrousel">
+          <div class="carrousel-one">
+            <div class="button-carrousel">
+              <button>SIEMS</button>
+            </div>
+          </div>
         </div>
         <div class="fabricantes-carrousel">
-            <div class="carrousel-one">
-             <div class="button-carrousel">
-                 <button>IDNRAMAT</button>
-             </div>
+          <div class="carrousel-one">
+            <div class="button-carrousel">
+              <button>ADD</button>
             </div>
+          </div>
+        </div>
+        <div class="fabricantes-carrousel">
+          <div class="carrousel-one">
+            <div class="button-carrousel">
+              <button>IDNRAMAT</button>
+            </div>
+          </div>
+        </div>
+        <div class="fabricante-flecha">
+          <img src="./img/proximo.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fabricantes fabicantes-responsive fab-res" >
+      <div class="container-aliados-tittle">
+        <p>FABRICANTES</p>
+      </div>
+      <div class="container-fabricantes-img">
+
+       <div class="res-one" id="fabone">
+        <div class="fabricantes-carrousel" >
+          <div class="carrousel-one">
+            <div class="button-carrousel">
+              <button>SIEMS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="res-two" id="fabtwo">
+        <div class="fabricantes-carrousel">
+          <div class="carrousel-one">
+            <div class="button-carrousel">
+              <button>ADD</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="res-three" id="fabthree">
+        <div class="fabricantes-carrousel">
+          <div class="carrousel-one">
+            <div class="button-carrousel">
+              <button>IDNRAMAT</button>
+            </div>
+          </div>
+        </div>
+      </div>
      
-            </div>
-       <div class="fabricante-flecha">
-        <img src="./img/proximo.png" alt="">
-       </div>
-          
-
-            </div>
-
-
-
+      </div>
+      <div class="img-circle">
+        <a href="javascript:fabone()"><img id="circleone" src="../img/circulo.png" alt=""></a>
+        <a href="javascript:fabtwo()"><img id="circletwo" src="../img/circulo.png" alt=""></a>
+        <a href="javascript:fabthree()"><img id="circletwo" src="../img/circulo.png" alt=""></a>
+       
+           </div>
     </div>
 
-     <!--catalogo-->
-   <div class="container-catalogo">
- <div class="catalogo-img">
-<img src="./img/Grupo 589.png" alt="">
- </div>
- <div class="catalogo-text">
-<div class="catalogo-text-tittle">
-   <p class="cat-tittle">CATÁLOGOS Y ZONA <br>
-DE DESCARGA</p>
-<p class="cat-text">Descubre todo nuestro portafolio de<br>servicios, repuestos electrónicos de<br>
-    automatización nuevos-descatalogados<br>nuevos-actuales y reacondicionados.
 
-</p>
-</div>
 
- </div>
- <div class="catalogo-download">
-    <div class="button-download">
-        <button>DESCARGAR</button>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--catalogo-->
+    <div class="container-catalogo">
+      <div class="catalogo-img">
+        <img src="./img/Grupo 589.png" alt="" />
+      </div>
+      <div class="catalogo-text">
+        <div class="catalogo-text-tittle">
+          <p class="cat-tittle">
+            CATÁLOGOS Y ZONA <br />
+            DE DESCARGA
+          </p>
+          <p class="cat-text">
+            Descubre todo nuestro portafolio de<br />servicios, repuestos
+            electrónicos de<br />
+            automatización nuevos-descatalogados<br />nuevos-actuales y
+            reacondicionados.
+          </p>
+        </div>
+      </div>
+      <div class="catalogo-download">
+        <div class="button-download">
+          <button>DESCARGAR</button>
+        </div>
+      </div>
     </div>
- </div>
 
+    <footer class="footer">
+      <div class="footer-logo">
+        <img class="img-footer-one" src="./img/logo footer.png" alt="" />
+        <img class="img-footer-two" src="./img/flt.png" alt="" />
+        <p>
+          QUERO Automation ® 2020 | Repuestos de Automatización Industrial QUERO
+          Automation ® no es Distribuidor Oficial ni Representante de los
+          fabricantes que aparecen en nuestra web.
+        </p>
+      </div>
+      <div class="footer-menu">
+        <div cass="menu-one">
+          <a href="./views/empresa.html"><li class="footer-black">EMPRESAS</li></a>
+          <a href="./views/servicios.html"></a><li class="footer-black">SERVICIOS</li>
+          <li class="footer-black">ALIANZAS</li>
+          <a href="./views/energy.html"><li class="footer-black">ENERGIA</li></a>
+        </div>
+        <div cass="menu-two">
+          <a href="views/contacto.html"><li class="footer-black">CONTACTO</li></a>
+          <li class="footer-black">SHOP</li>
+          <li class="footer-orange">DESCARGAS</li>
+          <a href="./views/blog.html"><li class="footer-orange">BLOG</li></a>
+        </div>
+      </div>
+      <img class="barra" src="./img/barra.png" alt="" />
+      <div class="footer-tel">
+        <p>
+          C/ REGORDOÑO, 13,<br />
+          28936 MÓSTOLES - MADRID (ESPAÑA)
+        </p>
 
+        <li class="f-tel">TELÉFONOS</li>
+        <li>+34 91 685 24 03</li>
 
-   </div>
-
-   
- <footer class="footer">
-<div class="footer-logo">
-<img class="img-footer-one" src="./img/logo footer.png" alt="">
-<img class="img-footer-two" src="./img/flt.png" alt="">
-<p>QUERO Automation ® 2020 | Repuestos de Automatización Industrial QUERO Automation ® no es Distribuidor Oficial ni Representante de los fabricantes que aparecen en nuestra web.</p>
-</div>
-<div class="footer-menu">
-<div cass="menu-one">
-   <li class="footer-black">EMPRESAS</li>
-   <li class="footer-black">SERVICIOS</li>
-   <li class="footer-black">ALIANZAS</li> 
-   <li class="footer-black">ENERGIA</li> 
-</div>
-<div cass="menu-two">
-    <li class="footer-black">CONTACTO</li>
-    <li class="footer-black">SHOP</li>
-    <li class="footer-orange">DESCARGAS</li> 
-    <li class="footer-orange"> BLOG</li>
- </div>
-</div>
-<img class="barra" src="./img/barra.png" alt="">
-<div class="footer-tel">
-    <p>C/ REGORDOÑO, 13,<br>
-    28936 MÓSTOLES - MADRID (ESPAÑA)
-    </p>
-
-    <li class="f-tel">TELÉFONOS</li>
-    <li>+34 91 685 24 03</li>
-
-    <p class="p-tel">JC-ELECTRONICS@QUEROAUTOMATION.COM</p>
-
-
-</div>
-
-
-    
-</footer>
-
+        <p class="p-tel">JC-ELECTRONICS@QUEROAUTOMATION.COM</p>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
