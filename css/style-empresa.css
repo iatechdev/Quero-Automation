@@ -29,6 +29,14 @@
   font-family: eurostile;
   src: url(../Fuentes/eurostile/eurostile-bold.otf);
 }
+  @font-face {
+    font-family: eurostile-regular;
+    src: url(../Fuentes/eurostile-regular/eurostile-regular.otf);
+  }
+  @font-face {
+    font-family: eurostile-bold;
+    src: url(../Fuentes/eurostile-bold/EUROSTIB.ttf);
+  }
 
 .intercambio-p{
  font-family: Montserrat-bold; 
@@ -52,7 +60,7 @@
 .container-empresa {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -63,11 +71,15 @@ padding:70px;
 .container-empresa-somos {
   display: flex;
   flex-direction: column;
+  width: 46%;
 }
 .container-empresa-somos h3 {
-  font-family: eurostile;
+  font-family: eurostile-bold;
   font-size: 50px;
-  color: #2e4356;
+  letter-spacing: 0px;
+color: #2E4356;
+opacity: 1;
+
 }
 
 .container-empresa-somos p {
@@ -102,33 +114,49 @@ padding:70px;
   display: flex;
   flex-direction: column;
 }
-
+.text-emp-world{
+font-family: Montserrat-bold;
+}
 .empr-world-text h3 {
   margin-block-end:0px;
-  font-family: eurostile;
+  font-family: eurostile-bold;
   font-size: 31px;
   color: #2e4356;
+  margin-bottom: 20px;
 }
+.intercambio-p{
+  font-family: Montserrat-bold; 
+  font-size: 25px;
+  color:#5F5C5B;
+ }
 .empr-world-text p {
+  letter-spacing: 0px;
   width: 500px;
-  font-family: Montserrat-regular;
+  font-family: Montserrat-medium;
   color: #5f5c5b;
 }
 
 .dep-tec{
 font-size: 31px;
-font-family: eurostile;
+font-family: eurostile-bold;
 color: #5f5c5b;   
 }
+
 .empr-world-img img {
   margin-top: 100px;
 }
 
 .empr-world-img {
- display: flex; 
+ 
  flex-direction: column; 
 
 }
+.empr-world-img h3{
+  font-size: 31px;
+  font-family: eurostile-bold;
+  color: #5f5c5b;
+ 
+ }
 
 .empr-world-img-two {
   display: flex;
@@ -159,11 +187,12 @@ ul {
   padding:0px;
 }
 ul li {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+ 
 }
 ul img {
   width: 10px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .container-info-empr {
@@ -207,24 +236,24 @@ ul img {
   color:white;
 }
 .button-empresa button:hover{
-  background-color:  #e95a21;
+  box-shadow: inset 340px 0 0 0 #e95a21;
   border:#e95a21;
   color:white;
   transition: 0.8s;
 }
 
 .button-adj button:hover{
-  background-color:  #e95a21;
+  box-shadow: inset 340px 0 0 0 #e95a21;
   border:#e95a21;
   color:white;
-  transition: 0.8s; 
+  transition: 0.8s;
 }
 
 .button-partner button:hover{
-  background-color:  #e95a21;
+  box-shadow: inset 340px 0 0 0 #e95a21;
   border:#e95a21;
   color:white;
-  transition: 0.8s; 
+  transition: 0.8s;
 }
 
 
@@ -253,11 +282,7 @@ ul img {
     font-size: 15px;
   }
 
-.empr-world-img h3 {
-  font-family: Montserrat-regular;
-  color: #5f5c5b;
-  font-size: 30px;
-}
+
 .margin {
   font-family: Montserrat-regular;
   margin-right: 80px;
@@ -286,7 +311,7 @@ ul img {
 }
 
 .container-valor-tittle h3 {
-  font-family: Montserrat-bold;
+  font-family: eurostile-bold;
   font-size: 34px;
   color: #2e4356;
   margin-block-end: 0px;
@@ -298,8 +323,10 @@ ul img {
 }
 
 .container-valor-text {
+  border-left: solid 1px f2f2f2;
   display: flex;
   flex-direction: column;
+  font-family: Montserrat-regular;
 }
 .container-valor-text p {
   width: 500px;
@@ -315,6 +342,7 @@ ul img {
 }
 
 .staff {
+  padding-top: 50px;
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 100px;
@@ -325,6 +353,7 @@ ul img {
   font-family: Myriadpro;
   font-size: 35px;
   letter-spacing: 3.1px;
+  padding-bottom: 50px;
 }
 
 .displayresponsive{
@@ -337,8 +366,8 @@ display:none;
 }
 
 .staff-flag img {
-  width: 30px;
-  height: 18px;
+  width: 40px;
+  height: 30px;
   padding: 5px;
 }
 
@@ -476,6 +505,7 @@ list-style: none;
 font-family: Montserrat-medium;
 padding:5px;    
 }
+
 .install-two-container{
 display:flex;
 flex-direction: row;  
@@ -485,6 +515,13 @@ justify-content: space-between;
 display:flex;
 flex-direction: column;  
 }
+.install-two-container-one img{
+ width: 47px;
+ height: 32px; 
+}
+.ml{
+ margin-left: 50px; 
+}
 .install-two-container-two{
  display:flex;
 flex-direction: column;  
@@ -492,7 +529,7 @@ flex-direction: column;
 
  .container-install h3{
 color:#5F5C5B;
-font-family: eurostile;
+font-family: eurostile-bold;
 font-size: 31px; 
  }
 
@@ -502,8 +539,8 @@ font-size: 31px;
 .container-energy{
 display: flex;
 flex-direction: row; 
-padding-left: 200px;
-padding-right: 200px;
+padding-left: 250px;
+padding-right: 250px;
 justify-content: space-between;
 
 
@@ -593,6 +630,13 @@ padding-left: 200px;
 padding-right: 200px;
 padding-bottom: 100px;
 }
+
+.novtwo{
+  display:none;
+}
+.novthree{
+  display:none;
+}
 .nov-bock-two{
 display: flex;
 flex-direction: column; 
@@ -648,6 +692,9 @@ color:#E95A21;
 padding: 7px; 
 
 }
+.pag a{
+text-decoration: none;  
+}
 
 
 /*contacto*/
@@ -679,16 +726,30 @@ background-color:#F2F2F2;
 width: 400px;
 justify-content: space-between;
 }
+
 .container-adj-img p{
+  position: absolute;
 padding-left: 20px;  
 font-family: Montserrat-semiBold;
 color:#5F5C5B;
 font-size: 18px;
 
 }
+.container-adj-img input{
+  opacity: 0;
+width: 400px ;
+}
+.container-adj-img input:hover{
+  cursor: pointer;
+}
+
+
 
 .container-adj-img img{
+  margin-top: 10px;
 margin-right: 10px;
+width: 50px;
+height: 30px;
 }
 
 
@@ -788,6 +849,10 @@ padding-bottom: 100px;
 
 
 @media screen and (min-width: 300px) and (max-width: 580px) {
+
+  .ml{
+    margin-left: 0px; 
+   }
   .hr-emp {
 
     margin-left: 20px;
@@ -813,9 +878,16 @@ flex-direction: column;
 }
 .container-adj-img{
 padding-top: 10px;
-width: 250px;
+width: 310px;
 margin-bottom: 10px;
-}    
+}  
+
+.container-adj-img input{
+width: 100px;
+  }   
+.container-adj img img{
+ margin-right: 40px; 
+}
 .maps-adj iframe{
 height: 300px;
 
@@ -839,10 +911,10 @@ padding-left: 40px;
 }
 
 .contacto-form textarea{
-width: 250px;
+width: 280px;
  }   
 .contacto-form input{
-width: 250px;
+width: 280px;
  } 
  .container-contacto{
 padding-right: 40px;
@@ -949,16 +1021,26 @@ margin-right: 0px;
   }
 
   .empr-world {
-padding-left: 40px;
-padding-right: 40px;
+padding-left: 0px;
+padding-right: 0px;
  margin-top:10px;
-    flex-direction: column;
+ flex-direction: column;
+ align-items: center;
+  }
+
+  .container-empresa-somos p{
+    width: 300px;
   }
   .empr-world-img{
 margin-left: 25px; 
   }
+  .empr-world-text  {
+    justify-content: center;
+     width: 310px;
+   }
 
   .empr-world-text p {
+   justify-content: center;
     width: 310px;
   }
 
@@ -974,9 +1056,29 @@ margin-left: 25px;
   .empresa-img {
     width: 300px;
   }
+  .empr-world-img img{
+    width: 300px;
+  }
 }
 
+@media screen and (min-width: 581px) and (max-width: 1000px) {
+  .ml{
+    margin-left: 0px; 
+   }
+.empr-world {
+  padding-left: 40px;
+  padding-right: 40px;
+   margin-top:10px;
+      flex-direction: column;
+    }
+  }
+
 @media screen and (min-width: 581px) and (max-width: 790px) {
+
+
+  .ml{
+    margin-left: 0px; 
+   }
   .cv-p{
     padding-right: 0px;    
     }
@@ -990,7 +1092,7 @@ margin-left: 25px;
     }
     .container-adj-img{
     padding-top: 10px;
-    width: 250px;
+    width: 450px;
     margin-bottom: 10px;
     }    
     .maps-adj iframe{
@@ -1015,12 +1117,7 @@ margin-left: 25px;
     padding-left: 40px;     
     }
     
-    .contacto-form textarea{
-    width: 250px;
-     }   
-    .contacto-form input{
-    width: 250px;
-     } 
+
      .container-contacto{
     padding-right: 40px;
      padding-left: 40px; 
@@ -1047,11 +1144,16 @@ margin-left: 25px;
     padding-right: 40px;
     padding-left: 40px;
     flex-direction:column; 
+    align-items: center;
+    }
+    .send-two iframe{
+     width: 600px; 
     }
     .container-energy{
     padding-right: 40px;
     padding-left: 40px;
     flex-direction:column; 
+    align-items: center;
     }
     
     .energy-one{
@@ -1081,6 +1183,18 @@ padding-left: 40px;
 padding-right: 40px;
 
 }
+.container-empresa{
+align-items: center;  
+
+}
+
+.container-empresa-somos p{
+ width: 400px; 
+}
+.container-empresa-somos h3{
+ padding-top: 10px; 
+ }
+ 
 
 .container-empresa-img{
 padding:0px;
@@ -1111,13 +1225,9 @@ padding:0px;
     padding-left: 10px;
     padding-right: 10px;
   }
-
-   .empr-world {
-padding-left: 40px;
-padding-right: 40px;
- margin-top:10px;
-    flex-direction: column;
-  }
+.empr-world{
+align-items: center;
+}
 
   .empr-world-text p {
     width: 400px;
@@ -1127,6 +1237,7 @@ padding-right: 40px;
     padding-right: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .container-valor-text p {
@@ -1162,13 +1273,37 @@ padding-right: 40px;
     align-items: center;
   }
 }
-@media screen and (min-width: 791px) and (max-width: 980px) {
+@media screen and (min-width: 791px) and (max-width: 984px) {
+  .iframe-two{
+    margin-top:50px;
+    width: 300px;
+    }
+  .ml{
+    margin-left: 50px; 
+   }
+  .empr-world{
+   flex-direction: column; 
+  }
+  .contacto-text{
+  align-items: center;
+   
+  }
+  .contacto-form{
+    align-items: center;
+  }
+  .container-energy{
+    padding-right: 40px;
+    padding-left: 40px;}
+    .container-contacto{
+      padding-right: 0px;
+      padding-left: 0px;}
 
 .empr-world {
 padding-left: 40px;
 padding-right: 40px;
  margin-top:10px;
 flex-direction: column;
+align-items: center;
 }
 
 .lideres{
@@ -1201,11 +1336,16 @@ padding-right: 40px;
   .container-empresa-one {
     padding-left: 10px;
     padding-right: 10px;
+   
   }
   .container-empresa {
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+  .empresa-img{
+    width: 600px;
   }
   .container-empresa-somos h3 {
     font-size: 40px;
@@ -1222,4 +1362,174 @@ padding-right: 40px;
     display: flex;
     flex-direction: row;
   }
+  .nov-bock-one{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
+    .contacto-text h3{
+     margin-top:20px; 
+    }
+    .container-adj{
+      padding-left: 60px;
+      padding-right: 60px;
+    
+      }
+      .contacto-form input{
+        width: 500px;
+      }
+      .contacto-form textarea{
+        width: 500px;
+      }
+      .container-install{
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+      .container-send{
+     justify-content: center;
+     padding-right: 0px;
+     padding-left: 0px;
+  
+      }
+      .send-one{
+      margin-right: 50px;
+      }
+      
+}
+@media screen and (min-width: 984px) and (max-width: 1200px) {
+  .send-two{
+   margin-left: 50px;
+   margin-top: 30px;
+  }
+  .container-install{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .container-empresa-somos h3{
+   font-size: 40px; 
+  }
+  .container-empresa-one{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+   
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .container-empresa-one{
+    padding-right: 60px;
+    padding-left: 60px;
+  
+  }
+  .container-install{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .container-valor{
+    padding-right: 110px;
+    padding-left: 60px;
+  
+  }
+}
+
+@media screen and (min-width: 984px) and (max-width: 1600px) {
+  .container-energy{
+    padding-right: 60px;
+    padding-left: 60px;
+  
+  }
+
+  .container-contacto{
+    padding-left: 60px;
+    padding-right: 60px;
+    }
+    .container-adj{
+      padding-left: 60px;
+      padding-right: 60px;
+    
+      }
+
+
+
+ 
+}
+@media screen and (min-width: 984px) and (max-width: 1000px) {
+
+  .nov-bock-one{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+
+ 
+}
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+  .nov-bock-one{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+
+ 
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+
+  .nov-bock-one{
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+
+ 
+}
+
+@media screen and (min-width: 790px) and (max-width: 984px) {
+
+
+  .nov-text p{
+    width: 300px; 
+   }
+
+}
+@media screen and (min-width: 790px) and (max-width: 1100px) {
+  .footer{
+    margin-top:100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom:80px;
+    }
+
+
+}
+@media screen and (min-width: 984px) and (max-width: 1100px) {
+
+  .container-contacto{
+    padding-left: 60px;
+    padding-right: 60px;
+  
+    }
+  .nov-text p{
+    width: 400px; 
+   }
+   .container-adj{
+    padding-left: 60px;
+    padding-right: 60px;
+  
+    }
+    .contacto-form input{
+      width: 500px;
+    }
+    .contacto-form textarea{
+      width: 500px;
+    }
+}
+@media screen and (min-width:900px) and (max-width: 1500px) {
+  .container-send{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .nov-text p{
+    width: 400px; 
+   }
 }

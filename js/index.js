@@ -68,4 +68,22 @@ function fabthree(){
     document.getElementById("fabthree").style.display="block";
  
 }
+function pagone(){
+    document.getElementById("novone").style.display="block";
+    document.getElementById("novtwo").style.display="none";
+    document.getElementById("novthree").style.display="none";
+ 
+}
+function pagtwo(){
+    document.getElementById("novone").style.display="none";
+    document.getElementById("novtwo").style.display="block";
+    document.getElementById("novthree").style.display="none";
+ 
+}
+function pagthree(){
+    document.getElementById("novone").style.display="none";
+    document.getElementById("novtwo").style.display="none";
+    document.getElementById("novthree").style.display="block";
+ 
+}
 

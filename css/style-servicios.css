@@ -29,6 +29,11 @@
     font-family: eurostile;
     src: url(../Fuentes/eurostile/eurostile-bold.otf);
   }
+  @font-face {
+    font-family: eurostile-bold;
+    src: url(../Fuentes/eurostile-bold/EUROSTIB.ttf);
+  }
+
 
 .background-emp{
 background-color:#F2F2F2;   
@@ -45,7 +50,7 @@ margin-bottom:50px;
 }
 
 .lideres h1{
-font-family: eurostile; 
+font-family: eurostile-bold; 
 color:#2E4356;
 font-size: 50px; 
 }
