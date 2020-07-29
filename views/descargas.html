@@ -1,0 +1,1295 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Quero Automation</title>
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/style-empresa.css" />
+<link rel="stylesheet" href="../css/style-servicios.css" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="header-down">
+   
+  <div class="container-header">
+    <a href="../index.html"><div class="container-header-icono">
+      <img src="../img/Logo quero.png" alt="" />
+    </div></a>
+    <div class="container-menu">
+      <div class="container-header-search-and-tel">
+        <div class="container-header-barra-busqueda">
+          <input type="text" placeholder="Buscar por referencia" />
+          <div class="icon-buscar">
+            <img src="../img/buscar.png" />
+          </div>
+        </div>
+        <div class="container-header-tel">
+          <div class="container-header-tel-one">
+            <img src="../img/llamada.png" alt="" />
+            <p>+34 916 852 403</p>
+          </div>
+          <div class="container-header-tel-two">
+            <img src="../img/español.png" alt="" />
+            <select name="language" id="">
+              <option value="Español">Español</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="container-menu-two">
+        <nav class="menu">
+          <ul class="menu-list">
+            <li>
+              <a class="now-n" href="./empresa.html">EMPRESAS</a>
+            </li>
+            <li><a class="now-n" href="./servicios.html">SERVICIOS</a></li>
+            <li><a class="now-n" href="./partner.html">PARTNES</a></li>
+            <li><a class="now" href="./energy.html">ENERGY</a></li>
+            <li><a class="now-n" href="./blog.html">BLOG</a></li>
+            <li><a class="now-n" href="./contacto.html">CONTACTO</a></li>
+            <li><a class="now" href="./shop.html">SHOP</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!--header responsive-->
+  <div class="container-header-responsive">
+    <div class="options-responsive" id="menures">
+      <div class="container-icon">
+        <a href="javascript:displaynone()">
+          <img class="menu-abierto-one" src="../img/menu-abierto.png" alt=""
+        /></a>
+      </div>
+      <ul class="list-responsive">
+        <div class="idioma-responsive">
+          <li><a class="no-a" href="./index.html">Idioma</a></li>
+
+          <select name="language" id=""> </select>
+        </div>
+        <li><a class="no-a" href="./empresa.html">Empresas</a></li>
+        <li><a href="./servicios.html">Servicios</a></li>
+        <li><a href="./partner.html">Partnes</a></li>
+        <li><a href="./energy.html">Energy</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./shop.html">Shop</a></li>
+      </ul>
+    </div>
+    <div class="header-responsive">
+      <div class="header-responsive-two">
+        <a href="javascript:menuresponsive()"
+          ><img
+            class="menu-abierto"
+            src="../img/Icon-Menu-orange.png"
+            alt=""
+        /></a>
+        <img class="img-quero" src="../img/logo footer.png" alt="" />
+
+        <img class="search" src="../img/buscar.png" />
+      </div>
+    </div>
+  </div>
+  <hr class="hr">
+  <div class="container-nav-text">
+
+    <p>DESCARGAS</p>
+         
+         </div>
+
+</nav>
+
+<div class="container-info mt-5">
+    <p class="">
+        Ya puede descargarse todos nuestros documentos en un solo click.<br>
+         Si necesita algún documento específico puede solicitarlo a: 
+    </p>
+    <li class="years-two">jc-electronics@queroautomation.com.</li>
+    <div class="doc-cat mt-5">
+    <a style="text-decoration: none;" href="javascript:documentos()"> <p class="years">DOCUMENTOS</p></a>
+      <p class=>|</p>
+      <a style="text-decoration: none;" href="javascript:catalogos()"> <p class="years">CATALOGOS</p></a>
+  
+    </div>
+  </div>
+
+
+
+
+
+<!--containers-->
+<div id="down">
+  <div id="carouselExampleIndicators6" class="carousel slide down-desktop" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators6" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators6" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators6" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner mb-5">
+      <div class="carousel-item active">
+          <div class="container down-desktop">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                       <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+                  </div>
+                </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+          
+            
+              <div class="row mt-5 mb-5">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+          
+          
+            </div>
+
+
+      </div>
+      <div class="carousel-item">
+          <div class="container down-desktop">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                       <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+                  </div>
+                </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+          
+            
+              <div class="row mt-5 mb-5">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+          
+          
+            </div>
+
+
+      </div>
+      <div class="carousel-item">
+          <div class="container down-desktop">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                       <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+                  </div>
+                </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+          
+            
+              <div class="row mt-5 mb-5">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+                    
+                     
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+          
+          
+            </div>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="down-responsive">
+
+    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner mb-5">
+        <div class="carousel-item active mb-5">
+            <div class="row ">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+        </div>
+        <div class="carousel-item mb-5">
+            <div class="row ">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+        </div>
+        <div class="carousel-item mb-5">
+            <div class="row ">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>DOC 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/DOC1.docx" download="DOC1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+ 
+
+<div id="cat">
+  <div id="carouselExampleIndicators10" class="carousel slide cat-desktop" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators10" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators10" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators10" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner mb-5">
+      <div class="carousel-item active">
+        <div class="container cat-desktop" >
+            <div class="row">
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                     <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+                </div>
+              </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+            </div>
+          
+          
+            <div class="row mt-5 mb-5">
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+            </div>
+          
+          
+          </div>
+
+
+      </div>
+      <div class="carousel-item">
+         
+        <div class="container cat-desktop" >
+            <div class="row">
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                     <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+                </div>
+              </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+            </div>
+          
+          
+            <div class="row mt-5 mb-5">
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+            </div>
+          
+          
+          </div>
+
+      </div>
+      <div class="carousel-item">
+        <div class="container cat-desktop" >
+            <div class="row">
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                     <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+                </div>
+              </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+            </div>
+          
+          
+            <div class="row mt-5 mb-5">
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+              <div class="col-md-3">
+                <div class="container-down-one">
+                <div class="container-down">
+                    <p>CAT 1</p>
+                </div>
+                <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+                  
+                   
+                  <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+             </div>
+           </a>
+              </div>
+              </div>
+            </div>
+          
+          
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="cat-responsive">
+    <div id="carouselExampleIndicators16" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators16" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators16" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators16" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner mb-5">
+        <div class="carousel-item active mb-5">
+            <div class="row ">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+        </div>
+        <div class="carousel-item mb-5">
+            <div class="row ">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+        </div>
+        <div class="carousel-item mb-5">
+            <div class="row ">
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="container-down-one">
+                  <div class="container-down">
+                      <p>CAT 1</p>
+                  </div>
+                  <a style="text-decoration: none;" href="../download/CAT1.docx" download="CAT1"> <div class="container-down-two">
+          
+           
+                    <img src="../img/VMnT0V.png" alt=""><p>Descargar</p>
+               </div>
+             </a>
+                </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+</div>
+
+
+
+  <div class="container-catalogotwo">
+    <div class="catalogo-text">
+        <div class="catalogo-text-tittle">
+          <p class="cat-tittle">
+            SOLUCIÓN Y <br />
+            SOPORTE
+          </p>
+          <p class="cat-text">
+            A más de 20.000 clientes<br>
+             en 130 países.
+          </p>
+        </div>
+      </div>
+    <div class="catalogo-text">
+      <div class="catalogo-text-tittle">
+        <p class="cat-text cat-text-two">
+            Ser líderes en nuestro sector no radica en <br>
+            vender más que nuestros competidores,<br>
+             sino en ofrecer un valor añadido a <br>
+             nuestros productos y servicios, gracias a <br>
+             un mayor conocimiento del mercado en <br>
+             un entorno de creciente competitividad.
+        </p>
+      </div>
+    </div>
+    <div class="catalogo-download">
+      <div class="button-download">
+        <a href="../views/servicios.html">  <button>VER SERVICIOS</button></a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <img class="img-footer-one" src="../img/logo footer.png" alt="" />
+      <div class="footer-two">
+        <a href=""> <img src="../img/facebook.png" alt=""></a>
+        <a href=""> <img src="../img/linked in.png" alt=""></a>
+         <a href=""><img src="../img/twitter.png" alt=""></a>
+       </div>
+      <p>
+        QUERO Automation ® 2020 | Repuestos de Automatización Industrial QUERO
+        Automation ® no es Distribuidor Oficial ni Representante de los
+        fabricantes que aparecen en nuestra web.
+      </p>
+    </div>
+    <div class="footer-menu">
+      <div cass="menu-one">
+        <a style="text-decoration:none" href="../views/empresa.html"><li class="footer-black">EMPRESAS</li></a>
+        <a style="text-decoration:none" href="../views/servicios.html"><li class="footer-black">SERVICIOS</li></a>
+        <li class="footer-black">ALIANZAS</li>
+        <a  style="text-decoration:none" href="../views/energy.html"><li class="footer-black">ENERGIA</li></a>
+      </div>
+      <div cass="menu-two">
+        <a  style="text-decoration:none" href="../views/contacto.html"><li class="footer-black">CONTACTO</li></a>
+        <li  class="footer-black">SHOP</li>
+        <a  style="text-decoration:none" href="../views/descargas.html"> <li class="footer-orange">DESCARGAS</li></a>
+        <a  style="text-decoration:none" href="../views/blog.html"><li class="footer-orange">BLOG</li></a>
+      </div>
+    </div>
+    <img class="barra" src="../img/barra.png" alt="" />
+    <div class="footer-tel">
+      <p>
+        C/ REGORDOÑO, 13,<br />
+        28936 MÓSTOLES - MADRID (ESPAÑA)
+      </p>
+
+      <li class="f-tel">TELÉFONOS</li>
+      <li>+34 91 685 24 03</li>
+
+      <p class="p-tel">JC-ELECTRONICS@QUEROAUTOMATION.COM</p>
+    </div>
+  </footer>
+  <script src="../js/index.js"></script>
+</body>
+</html>

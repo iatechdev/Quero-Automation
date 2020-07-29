@@ -87,3 +87,15 @@ function pagthree(){
  
 }
 
+function documentos(){
+    document.getElementById("down").style.display="block";
+    document.getElementById("cat").style.display="none";
+ 
+}
+function catalogos(){
+    document.getElementById("down").style.display="none";
+    document.getElementById("cat").style.display="block";
+ 
+}
+
+

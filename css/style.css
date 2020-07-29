@@ -75,6 +75,14 @@ background-size: cover;
 background-position: center; 
 }
 
+.header-down{
+ background-image: url(../img/foto\ descargas.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+
+}
+
 
 .hr{
  background-color: #CCCCCC; 
@@ -511,6 +519,10 @@ margin-right: 10px;
 
 
 @media screen and (min-width: 300px) and (max-width: 580px){
+  .years-two{
+   font-size: 18px;
+    }
+
 
 .container-fabricantes-img{
 margin-top: 40px;
@@ -759,6 +771,9 @@ margin-bottom: 100px;
 .years{
 color:#E95A21;
 }
+.years-two{
+  color:#E95A21;
+  }
 .text-infoo{
 color:#5F5C5B;
 }
@@ -797,9 +812,7 @@ justify-content: space-between;
 font-size: 20px;
 font-family: Montserrat-medium; 
 }
-.container-info-text img{
 
-}
 
 .tittle-info{
 padding-left: 10px;
@@ -864,6 +877,12 @@ height: 80px;
 
 
 @media screen and (min-width: 300px) and (max-width: 580px){
+  .container-info li{
+    list-style: none;
+    font-size: 18px;
+    font-family: Montserrat-medium;
+    
+    }
   .container-info p{
    margin-left: 20px;
   }
@@ -1214,10 +1233,31 @@ flex-direction: column;
 font-family: Montserrat-regular;
 color:#5F5C5B;
 }
-
+.down-responsive{
+  display:none; 
+ }
+ #cat{
+ display: none;  
+ }
+ .cat-responsive{
+  display: none; 
+ }
 
 
 @media screen and (min-width: 300px) and (max-width: 580px){
+  .cat-responsive{
+  display: block  
+  }
+  .down-responsive{
+   display:block; 
+  }
+
+  .down-desktop{
+    display:none; 
+   }
+   .cat-desktop{
+    display:none; 
+   }
   .electronic-hover{
     width: 338px;
     height: 200px;
@@ -1582,6 +1622,16 @@ background-color:#E95A21 ;
 padding-left: 200px;
 padding-right: 200px;
 }
+.container-catalogotwo{
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row; 
+  padding-bottom: 50px; 
+  justify-content: space-between; 
+  background-color:#E95A21 ; 
+  padding-left: 200px;
+  padding-right: 200px;
+  }
 
 .catalogo-img img{
 margin-top:40px; 
@@ -1638,6 +1688,13 @@ background-color:#E95A21 ;
 padding-left: 10px;
 padding-right: 10px;
 }
+.container-catalogotwo{
+  flex-direction: column; 
+  padding-bottom: 50px; 
+  background-color:#E95A21 ; 
+  padding-left: 10px;
+  padding-right: 10px;
+  }
 .cat-tittle{
 color:white;
 font-family: Montserrat-medium;
@@ -1665,6 +1722,15 @@ background-color:#E95A21 ;
 padding-left: 120px;
 padding-right: 120px;
 }
+.container-catalogotwo{
+
+  flex-direction: column; 
+  padding-bottom: 50px; 
+  justify-content: space-between; 
+  background-color:#E95A21 ; 
+  padding-left: 120px;
+  padding-right: 120px;
+  }
 .cat-tittle{
 color:white;
 font-family: Montserrat-medium;
@@ -1688,6 +1754,16 @@ background-color:#E95A21 ;
 padding-left: 150px;
 padding-right: 150px;
 }
+
+.container-catalogotwo{
+ 
+  flex-direction: column; 
+  padding-bottom: 50px; 
+  justify-content: space-between; 
+  background-color:#E95A21 ; 
+  padding-left: 150px;
+  padding-right: 150px;
+  }
 .cat-tittle{
 color:white;
 font-family: Montserrat-medium;
@@ -1712,6 +1788,13 @@ margin-top: 100px;
     padding-left: 10px;
     padding-right: 10px;
     }
+    .container-catalogotwo{
+      padding-bottom: 20px; 
+      flex-direction: column; 
+      align-items: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      }
 
     .button-download{
       margin-top: 60px;
@@ -1733,12 +1816,23 @@ margin-top: 100px;
     padding-right: 20px;
     padding-left: 20px;
   }
+  .container-catalogotwo{
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1300px){
 
   .container-catalogo{
+    padding-top:0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+  .container-catalogotwo{
     padding-top:0px;
     padding-left: 10px;
     padding-right: 10px;
@@ -1760,6 +1854,10 @@ margin-top: 100px;
     margin-top: 60px;
   }
   .container-catalogo{
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .container-catalogotwo{
     padding-right: 60px;
     padding-left: 60px;
   }
@@ -1786,6 +1884,11 @@ margin-top: 100px;
     padding-left: 60px;
     padding-right: 60px;
   }
+  .container-catalogotwo{
+    padding-top:0px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 
 
 .cat-tittle{
@@ -1794,6 +1897,9 @@ font-family: Montserrat-medium;
 font-size: 35px;
 margin-top:100px;
 
+}
+.cat-text-two{
+  margin-top:100px;
 }
 
 .catalogo-img{

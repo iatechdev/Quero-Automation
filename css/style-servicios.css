@@ -33,6 +33,10 @@
     font-family: eurostile-bold;
     src: url(../Fuentes/eurostile-bold/EUROSTIB.ttf);
   }
+  @font-face {
+    font-family: eurostile-regular;
+    src: url(../Fuentes/eurostile-regular/eurostile-regular.otf);
+  }
 
 
 .background-emp{
@@ -75,3 +79,256 @@ margin-top:30px;
 .margin-service-reparacion{
  margin-top:70px;   
 }
+.container-down{
+display: flex;
+width: 170px !important;
+height: 200px !important;  
+background-color: #F2F2F2;
+justify-content: center;
+}
+.container-down{
+  font-family: Montserrat-semiBold;
+  color: #B3B3B3;
+  font-size: 12px;
+}
+.container-down p{
+  align-self: flex-end;
+}
+.container-down-one{
+  display:flex;
+ flex-direction: column;
+align-items: center;
+}
+.container-down-one-one{
+  display:flex;
+ flex-direction: column;
+
+}
+
+.container-down-one-one p{
+  font-family: Montserrat-bold;
+  font-size: 16px;
+  color:#5F5C5B;
+
+}
+.container-down-two{
+ margin-top: 10px;
+ display: flex;
+ flex-direction: row;
+
+}
+.container-down-two:hover{
+cursor: pointer;
+ 
+ }
+.container-down-two img{
+  margin-top: 5px;
+  width: 21px;
+  height: 17px;
+
+}
+.container-down-one-one img{
+width: 212px;
+height: 142px;
+
+}
+
+.sp{
+  color:#000000;  
+  }
+.container-down-two p{
+font-family: Montserrat-regular;
+color:#E95A21;
+padding-left: 5px;
+font-size: 17px;
+}
+
+.doc-cat{
+ display: flex;
+ flex-direction: row; 
+ justify-content: center;
+}
+.doc-cat:hover{
+cursor: pointer;
+}
+
+.doc-cat p{
+ padding-right: 10px; 
+ font-size: 13px;
+ color:#E95A21;
+}
+
+.blog-container{
+display: flex;
+flex-direction: row;  
+}
+.container-blog-menu{
+  width: 25% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+}
+.container-blog-menu:hover{
+cursor: pointer;
+}
+.container-blog-menu-text h2{
+font-family: Montserrat-bold;
+color:#5F5C5B;
+font-size: 24px;
+}
+.container-blog-menu-text ul{
+ font-family: Montserrat-medium;
+ font-size: 16px;
+ color:#5F5C5B;
+}
+.container-blog-menu-text li{
+  font-family: Montserrat-medium;
+  font-size: 15px;
+  color:#5F5C5B;
+}
+.container-blog-menu-text li:hover{
+cursor: pointer;
+}
+.container-blog-menu-text h4{
+  font-family: Montserrat-medium;
+  font-size: 13px;
+  color:#A5A4A4;
+}
+.container-blog-text h2{
+  font-family: eurostile-regular;
+  color:#2E4356;
+  font-size: 53px;
+}
+.container-blog-text h3{
+  font-family: Myriadpro;
+  letter-spacing: 0px;
+  color:#5F5C5B;
+  font-size: 16px;
+}
+.container-blog-text p{
+  font-family: Montserrat-regular;
+  letter-spacing: 0px;
+  color:#000000;
+  font-size: 16px;
+}
+.container-blog-text img{
+width: 720px;
+height: 470px;
+}
+.container-blog-text h5{
+  font-family: eurostile-regular;
+  letter-spacing: 0px;
+  color:#2E4356;
+  font-size: 31px;
+}
+.posts{
+font-family: Montserrat-bold;
+color:#E95A21;
+font-size: 20px;
+}
+.margin-top-blog{
+margin-top:100px  
+}
+.margin-top-blog-two{
+  margin-top:110px  
+} 
+.navbar-toggler{
+background-color: #F2F2F2 ;  
+}
+
+.blog-container-responsive{
+  display: none;
+ }
+ .text-categorias{
+
+  font-family: Montserrat-bold;
+  color:#5F5C5B;
+  font-size: 24px;
+ }
+.navbar-collapse ul:hover{
+cursor: pointer;  
+}
+.nav-link{
+  list-style: none;
+  font-family: Montserrat-regular;
+ 
+}
+.navbar-dark .navbar-nav .nav-link {
+ color: #5f5c5b;
+}
+
+
+
+ @media screen and (min-width: 300px) and (max-width: 500px){
+  .m-left-inner {
+    margin-left: 40px;  
+    }
+ .container-blog-text h2{
+  font-size: 30px; 
+ }  
+
+.container-blog-text img{
+width: 300px;
+height: 216px;
+   }
+}
+  @media screen and (min-width: 501px) and (max-width: 680px){
+    .m-left-inner {
+      margin-left: 60px;  
+      }
+
+    .container-blog-text img{
+    width: 400px;
+    height: 316px;
+       }
+      }
+ @media screen and (min-width: 680px) and (max-width: 800px){
+
+    .container-blog-text img{
+    width: 600px;
+    height: 416px;
+       }
+  }
+@media screen and (min-width: 300px) and (max-width: 800px){
+  .blog-container{
+  display: none;
+  }
+  .blog-container-responsive{
+  display: block;
+  }
+
+}
+@media screen and (min-width: 801px) and (max-width: 1100px){
+.container-blog-menu{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #F2F2F2;
+}
+.container-blog-text{
+width: 70%;
+}
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 936px){
+
+  .container-blog-text img{
+  align-items: center;
+  width: 550px;
+  }
+  }
+  @media screen and (min-width: 936px) and (max-width: 1100px){
+
+    .container-blog-text img{
+    width: 650px;
+    }
+    }
+
+
+    .navbar{
+    background-color: #F2F2F2 
+    }
+
