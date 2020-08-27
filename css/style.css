@@ -31,6 +31,23 @@ background-size: cover;
 background-position: center;
 
 }
+.img-rn{
+width: 157px;
+height: 157px;
+}
+.c-g h3{
+font-family: eurostile-regular;
+color:#2E4356;
+font-size: 58px; 
+}
+.c-g p{
+font-family: Montserrat-regular;
+color:#5F5C5B;  
+}
+.c-g h2{
+ font-family: eurostile-regular;
+color:#2E4356; 
+}
 .header-three{
   background-image: 
   linear-gradient(
